@@ -2171,3 +2171,393 @@ Destroying test database for alias 'default'...
 [33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
 Creating test database for alias 'default'...
 System check identified no issues (0 silenced).
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.860s
+
+OK
+Destroying test database for alias 'default'...
+./core/admin.py:1:1: F401 'django.contrib.admin' imported but unused
+./core/models.py:27:1: E302 expected 2 blank lines, found 1
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.871s
+
+OK
+Destroying test database for alias 'default'...
+./core/admin.py:1:1: E265 block comment should start with '# '
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.860s
+
+OK
+Destroying test database for alias 'default'...
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ get add .
+
+Command 'get' not found, but there are 18 similar ones.
+
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ get add .[1P[1@i
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ git commit -a
+hint: Waiting for your editor to close the file... [?1049h[22;0;0t[1;45r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[43;70H(B[0;7m[ Reading File ](B[m[43;76H(B[0;7m 23 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                  /home/ajf/work/django_rest/recipe-app-api/.git/COMMIT_EDITMSG                                            [1;154H(B[m[44d(B[0;7m^G(B[m Get Help[18G(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text[69G(B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo[44;120H(B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket[45d(B[0;7m^X(B[m Exit[45;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Uncut Text    (B[0;7m^T(B[m To Spell[86G(B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo[45;120H(B[0;7mM-6(B[m Copy Text    (B[0;7mM-W(B[m WhereIs Next[43d[4d[39;49m[36m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d#[7d# Committer: Andy Fisher [35m<ajf@howitworks.co.uk>[8d[36m#[9d# On branch master[10d# Your branch is up-to-date with 'origin/master'.[11d#[12d# Changes to be committed:[13d#       modified:   app/app/settings.py[14d#       modified:   app/calc.py[15d#       new file:   app/core/__init__.py[16d#       new file:   app/core/admin.py[17d#       new file:   app/core/apps.py[18d#       new file:   app/core/migrations/0001_initial.py[19d#       new file:   app/core/migrations/__init__.py[20d#       new file:   app/core/models.py[21d#       new file:   app/core/tests/__init__.py[22d#       new file:   app/core/tests/test_models.py[23d#       modified:   app/tests.py[24d#       modified:   transcript.txt[25d#[3d[39m(B[m[?12l[?25h[?25l[1;146H(B[0;7mModified(B[m[3dA[?12l[?25h[?25ld[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25lc[?12l[?25h[?25lu[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25lo[?12l[?25h[?25lm[?12l[?25h[?25l [?12l[?25h[?25lu[?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lm[?12l[?25h[?25lo[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25l[44;18H[21X[44;39H(B[0;7mM-D(B[m DOS Format          [69G        (B[0;7mM-A(B[m Append         [103G            (B[0;7mM-B(B[m Backup File[K[45;2H(B[0;7mC(B[m Cancel[45;18H[21X[45;39H(B[0;7mM-M(B[m Mac Format[24X[45;77H(B[0;7mM-P(B[m Prefix[28X[45;115H(B[0;7m^T(B[m To Files[K[43d(B[0;7mFile Name to Write: /home/ajf/work/django_rest/recipe-app-api/.git/COMMIT_EDITMSG                                                                          [43;1H(B[m[43;82H[?12l[?25h[?25l[K[1;154H[1;146H(B[0;7m        (B[m[43;69H(B[0;7m[ Wrote 23 lines ](B[m[44;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is      (B[0;7m^K(B[m Cut Text[69G(B[0;7m^J(B[m Justify       (B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo         (B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket[45;2H(B[0;7mX(B[m Exit  [45;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace       (B[0;7m^U(B[m Uncut Text    (B[0;7m^T(B[m To Spell      (B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo         (B[0;7mM-6(B[m Copy Text    (B[0;7mM-W(B[m WhereIs Next[43d[3;24H[?12l[?25h[?25l[43d[J[45;155H[?12l[?25h[45;1H[?1049l[23;0;0t[?1l>[K[master a69da1d] Added custom user model
+ Committer: Andy Fisher <ajf@howitworks.co.uk>
+Your name and e-mail address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 12 files changed, 889 insertions(+), 3 deletions(-)
+ create mode 100644 app/core/__init__.py
+ create mode 100644 app/core/admin.py
+ create mode 100644 app/core/apps.py
+ create mode 100644 app/core/migrations/0001_initial.py
+ create mode 100644 app/core/migrations/__init__.py
+ create mode 100644 app/core/models.py
+ create mode 100644 app/core/tests/__init__.py
+ create mode 100644 app/core/tests/test_models.py
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ git commit -a[4Padd .e[C[C[C[C[C[C[Cdocker-compose run app sh -c "python manage.py test && flake8"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cget add .[Ki[C[C[C[C[C[C[Ccommit -a[Kgit push
+Username for 'https://github.com': andyjohnfisher
+Password for 'https://andyjohnfisher@github.com': 
+Counting objects: 16, done.
+Delta compression using up to 24 threads.
+Compressing objects:   6% (1/15)   Compressing objects:  13% (2/15)   Compressing objects:  20% (3/15)   Compressing objects:  26% (4/15)   Compressing objects:  33% (5/15)   Compressing objects:  40% (6/15)   Compressing objects:  46% (7/15)   Compressing objects:  53% (8/15)   Compressing objects:  60% (9/15)   Compressing objects:  66% (10/15)   Compressing objects:  73% (11/15)   Compressing objects:  80% (12/15)   Compressing objects:  86% (13/15)   Compressing objects:  93% (14/15)   Compressing objects: 100% (15/15)   Compressing objects: 100% (15/15), done.
+Writing objects:   6% (1/16)   Writing objects:  12% (2/16)   Writing objects:  18% (3/16)   Writing objects:  25% (4/16)   Writing objects:  31% (5/16)   Writing objects:  37% (6/16)   Writing objects:  43% (7/16)   Writing objects:  50% (8/16)   Writing objects:  56% (9/16)   Writing objects:  62% (10/16)   Writing objects:  68% (11/16)   Writing objects:  75% (12/16)   Writing objects:  81% (13/16)   Writing objects:  87% (14/16)   Writing objects:  93% (15/16)   Writing objects: 100% (16/16)   Writing objects: 100% (16/16), 7.49 KiB | 2.50 MiB/s, done.
+Total 16 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/5)[Kremote: Resolving deltas:  20% (1/5)[Kremote: Resolving deltas:  40% (2/5)[Kremote: Resolving deltas:  60% (3/5)[Kremote: Resolving deltas:  80% (4/5)[Kremote: Resolving deltas: 100% (5/5)[Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
+To https://github.com/andyjohnfisher/recipe-app-api.git
+   b6f71ae..a69da1d  master -> master
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ git pushcommit -a[4Padd .e[C[C[C[C[C[C[Cdocker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+E......
+======================================================================
+ERROR: test_users_listed (core.tests.test_admin.AdminSiteTests)
+Test that users are listed on user page
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/app/core/tests/test_admin.py", line 24, in test_users_listed
+    url = reverse('admin:core_user_changelist')
+  File "/usr/local/lib/python3.7/site-packages/django/urls/base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/usr/local/lib/python3.7/site-packages/django/urls/resolvers.py", line 660, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'core_user_changelist' not found. 'core_user_changelist' is not a valid view function or pattern name.
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.880s
+
+FAILED (errors=1)
+Destroying test database for alias 'default'...
+[1]+  Done                    emacs .gitignore
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Traceback (most recent call last):
+  File "manage.py", line 21, in <module>
+    main()
+  File "manage.py", line 17, in main
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python3.7/site-packages/django/core/management/__init__.py", line 381, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python3.7/site-packages/django/core/management/__init__.py", line 357, in execute
+    django.setup()
+  File "/usr/local/lib/python3.7/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python3.7/site-packages/django/apps/registry.py", line 122, in populate
+    app_config.ready()
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/admin/apps.py", line 24, in ready
+    self.module.autodiscover()
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/admin/__init__.py", line 26, in autodiscover
+    autodiscover_modules('admin', register_to=site)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/module_loading.py", line 47, in autodiscover_modules
+    import_module('%s.%s' % (app_config.name, module_to_search))
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/app/core/admin.py", line 4, in <module>
+    from code import models
+ImportError: cannot import name 'models' from 'code' (/usr/local/lib/python3.7/code.py)
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+E......
+======================================================================
+ERROR: test_users_listed (core.tests.test_admin.AdminSiteTests)
+Test that users are listed on user page
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/app/core/tests/test_admin.py", line 26, in test_users_listed
+    self.assertConatins(resp, self.user.name)
+AttributeError: 'AdminSiteTests' object has no attribute 'assertConatins'
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.893s
+
+FAILED (errors=1)
+Destroying test database for alias 'default'...
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+E......
+======================================================================
+ERROR: test_users_listed (core.tests.test_admin.AdminSiteTests)
+Test that users are listed on user page
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/app/core/tests/test_admin.py", line 26, in test_users_listed
+    self.assertContains(resp, self.user.name)
+AttributeError: 'AdminSiteTests' object has no attribute 'user'
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.885s
+
+FAILED (errors=1)
+Destroying test database for alias 'default'...
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+E......
+======================================================================
+ERROR: test_users_listed (core.tests.test_admin.AdminSiteTests)
+Test that users are listed on user page
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/app/core/tests/test_admin.py", line 11, in setUp
+    self.admin_user = get_user_model.objects.create_superuser(
+AttributeError: 'function' object has no attribute 'objects'
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.865s
+
+FAILED (errors=1)
+Destroying test database for alias 'default'...
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+.......
+----------------------------------------------------------------------
+Ran 7 tests in 1.382s
+
+OK
+Destroying test database for alias 'default'...
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+E.......
+======================================================================
+ERROR: test_user_change_page (core.tests.test_admin.AdminSiteTests)
+Test that the user edit page works
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/admin/options.py", line 705, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/local/lib/python3.7/site-packages/django/forms/models.py", line 551, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/local/lib/python3.7/site-packages/django/forms/models.py", line 266, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (last_name, first_name, date_joined, username) specified for User
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/app/core/tests/test_admin.py", line 33, in test_user_change_page
+    resp = self.client.get(url)
+  File "/usr/local/lib/python3.7/site-packages/django/test/client.py", line 535, in get
+    response = super().get(path, data=data, secure=secure, **extra)
+  File "/usr/local/lib/python3.7/site-packages/django/test/client.py", line 347, in get
+    **extra,
+  File "/usr/local/lib/python3.7/site-packages/django/test/client.py", line 422, in generic
+    return self.request(**r)
+  File "/usr/local/lib/python3.7/site-packages/django/test/client.py", line 503, in request
+    raise exc_value
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/admin/options.py", line 606, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/admin/sites.py", line 223, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/admin/options.py", line 1637, in change_view
+    return self.changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 45, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/admin/options.py", line 1522, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/admin/options.py", line 1551, in _changeform_view
+    ModelForm = self.get_form(request, obj, change=not add)
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/auth/admin.py", line 80, in get_form
+    return super().get_form(request, obj, **defaults)
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/admin/options.py", line 709, in get_form
+    % (e, self.__class__.__name__)
+django.core.exceptions.FieldError: Unknown field(s) (last_name, first_name, date_joined, username) specified for User. Check fields/fieldsets/exclude attributes of class UserAdmin.
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.804s
+
+FAILED (errors=1)
+Destroying test database for alias 'default'...
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Traceback (most recent call last):
+  File "manage.py", line 21, in <module>
+    main()
+  File "manage.py", line 17, in main
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python3.7/site-packages/django/core/management/__init__.py", line 381, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python3.7/site-packages/django/core/management/__init__.py", line 357, in execute
+    django.setup()
+  File "/usr/local/lib/python3.7/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python3.7/site-packages/django/apps/registry.py", line 122, in populate
+    app_config.ready()
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/admin/apps.py", line 24, in ready
+    self.module.autodiscover()
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/admin/__init__.py", line 26, in autodiscover
+    autodiscover_modules('admin', register_to=site)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/module_loading.py", line 47, in autodiscover_modules
+    import_module('%s.%s' % (app_config.name, module_to_search))
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/app/core/admin.py", line 20
+    admin.site.register(models.User, UserAdmin)
+        ^
+SyntaxError: invalid syntax
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+E.......
+======================================================================
+ERROR: test_user_change_page (core.tests.test_admin.AdminSiteTests)
+Test that the user edit page works
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/app/core/tests/test_admin.py", line 35, in test_user_change_page
+    self.assertEqual(res.status_code, 200)
+NameError: name 'res' is not defined
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.794s
+
+FAILED (errors=1)
+Destroying test database for alias 'default'...
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+........
+----------------------------------------------------------------------
+Ran 8 tests in 1.866s
+
+OK
+Destroying test database for alias 'default'...
+./core/admin.py:11:49: E202 whitespace before ')'
+./core/admin.py:12:51: E202 whitespace before ')'
+./core/admin.py:15:65: E202 whitespace before '}'
+./core/admin.py:17:59: E202 whitespace before ')'
+./core/admin.py:20:1: E305 expected 2 blank lines after class or function definition, found 1
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+........
+----------------------------------------------------------------------
+Ran 8 tests in 1.763s
+
+OK
+Destroying test database for alias 'default'...
+./core/admin.py:20:1: E305 expected 2 blank lines after class or function definition, found 1
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+........
+----------------------------------------------------------------------
+Ran 8 tests in 1.764s
+
+OK
+Destroying test database for alias 'default'...
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+E........
+======================================================================
+ERROR: test_create_user_page (core.tests.test_admin.AdminSiteTests)
+Test that the create user page works
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/admin/options.py", line 705, in get_form
+    return modelform_factory(self.model, **defaults)
+  File "/usr/local/lib/python3.7/site-packages/django/forms/models.py", line 551, in modelform_factory
+    return type(form)(class_name, (form,), form_class_attrs)
+  File "/usr/local/lib/python3.7/site-packages/django/forms/models.py", line 266, in __new__
+    raise FieldError(message)
+django.core.exceptions.FieldError: Unknown field(s) (username) specified for User
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/app/core/tests/test_admin.py", line 40, in test_create_user_page
+    resp = self.client.get(url)
+  File "/usr/local/lib/python3.7/site-packages/django/test/client.py", line 535, in get
+    response = super().get(path, data=data, secure=secure, **extra)
+  File "/usr/local/lib/python3.7/site-packages/django/test/client.py", line 347, in get
+    **extra,
+  File "/usr/local/lib/python3.7/site-packages/django/test/client.py", line 422, in generic
+    return self.request(**r)
+  File "/usr/local/lib/python3.7/site-packages/django/test/client.py", line 503, in request
+    raise exc_value
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/contrib/admin/options.py", line 606, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/utils/decorators.py", line 142, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view
