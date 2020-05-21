@@ -296,4 +296,963 @@ Password for 'https://andyjohnfisher@github.com':
 Counting objects: 20, done.
 Delta compression using up to 24 threads.
 Compressing objects:   5% (1/17)   Compressing objects:  11% (2/17)   Compressing objects:  17% (3/17)   Compressing objects:  23% (4/17)   Compressing objects:  29% (5/17)   Compressing objects:  35% (6/17)   Compressing objects:  41% (7/17)   Compressing objects:  47% (8/17)   Compressing objects:  52% (9/17)   Compressing objects:  58% (10/17)   Compressing objects:  64% (11/17)   Compressing objects:  70% (12/17)   Compressing objects:  76% (13/17)   Compressing objects:  82% (14/17)   Compressing objects:  88% (15/17)   Compressing objects:  94% (16/17)   Compressing objects: 100% (17/17)   Compressing objects: 100% (17/17), done.
-Writing objects:   5% (1/20)   Writing objects:  10% (2/20)   Writing objects:  20% (4/20)   Writing objects:  25% (5/20)   Writing objects:  30% (6/20)   Writing objects:  35% (7/20) 
+Writing objects:   5% (1/20)   Writing objects:  10% (2/20)   Writing objects:  20% (4/20)   Writing objects:  25% (5/20)   Writing objects:  30% (6/20)   Writing objects:  35% (7/20)   Writing objects:  40% (8/20)   Writing objects:  45% (9/20)   Writing objects:  50% (10/20)   Writing objects:  55% (11/20)   Writing objects:  60% (12/20)   Writing objects:  65% (13/20)   Writing objects:  70% (14/20)   Writing objects:  75% (15/20)   Writing objects:  80% (16/20)   Writing objects:  85% (17/20)   Writing objects:  90% (18/20)   Writing objects:  95% (19/20)   Writing objects: 100% (20/20)   Writing objects: 100% (20/20), 7.34 KiB | 2.45 MiB/s, done.
+Total 20 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 1 local object.[K
+To https://github.com/andyjohnfisher/recipe-app-api.git
+   1a42352..a498583  master -> master
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ git add .
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ git commit [K -a
+hint: Waiting for your editor to close the file... [?1049h[22;0;0t[1;45r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[43;70H(B[0;7m[ Reading File ](B[m[43;76H(B[0;7m 15 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                  /home/ajf/work/django_rest/recipe-app-api/.git/COMMIT_EDITMSG                                            [1;154H(B[m[44d(B[0;7m^G(B[m Get Help[18G(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text[69G(B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo[44;120H(B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket[45d(B[0;7m^X(B[m Exit[45;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Uncut Text    (B[0;7m^T(B[m To Spell[86G(B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo[45;120H(B[0;7mM-6(B[m Copy Text    (B[0;7mM-W(B[m WhereIs Next[43d[4d[39;49m[36m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d#[7d# Committer: Andy Fisher [35m<ajf@howitworks.co.uk>[8d[36m#[9d# On branch master[10d# Your branch is up-to-date with 'origin/master'.[11d#[12d# Changes to be committed:[13d#       new file:   .travis.yml[14d#       new file:   app/.flake8[15d#       modified:   requirements.txt[16d#       modified:   transcript.txt[17d#[3d[39m(B[m[?12l[?25h[?25l[1;146H(B[0;7mModified(B[m[3dA[?12l[?25h[?25ld[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25ll[?12l[?25h[?25la[?12l[?25h[?25lk[?12l[?25h[?25l8[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25lT[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25lv[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l-[?12l[?25h[?25lC[43d[K[3;25H[?12l[?25h[?25lI[?12l[?25h[?25l [?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25lg[?12l[?25h[?25lu[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l[43d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                                                                              [44;1H Y(B[m Yes[K[45d(B[0;7m N(B[m No  [45;17H(B[0;7m^C(B[m Cancel[K[43;63H[?12l[?25h[?25l[?12l[?25h[?25l[44d(B[0;7m^G(B[m Get Help[44;39H(B[0;7mM-D(B[m DOS Format[44;77H(B[0;7mM-A(B[m Append[44;115H(B[0;7mM-B(B[m Backup File[45d(B[0;7m^C(B[m Cancel[17G         [45;39H(B[0;7mM-M(B[m Mac Format[45;77H(B[0;7mM-P(B[m Prefix[45;115H(B[0;7m^T(B[m To Files[43d(B[0;7mFile Name to Write: /home/ajf/work/django_rest/recipe-app-api/.git/COMMIT_EDITMSG(B[m[43;82H[?12l[?25h[?25l[43;82H[?12l[?25h[?25l[K[1;154H[1;146H(B[0;7m        (B[m[43;69H(B[0;7m[ Wrote 15 lines ](B[m[J[45;155H[?12l[?25h[45;1H[?1049l[23;0;0t[?1l>[K[master 26d8d2f] Added flak8 and Travis-CI configuration
+ Committer: Andy Fisher <ajf@howitworks.co.uk>
+Your name and e-mail address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 119 insertions(+), 1 deletion(-)
+ create mode 100644 .travis.yml
+ create mode 100644 app/.flake8
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ git commit -a[4Padd .push origen
+fatal: 'origen' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ git push origen[K[Kin
+Username for 'https://github.com': andyjohnfisher
+Password for 'https://andyjohnfisher@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/andyjohnfisher/recipe-app-api.git/'
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ git push origin
+Username for 'https://github.com': andyjohnfisher
+Password for 'https://andyjohnfisher@github.com': 
+Counting objects: 7, done.
+Delta compression using up to 24 threads.
+Compressing objects:  14% (1/7)   Compressing objects:  28% (2/7)   Compressing objects:  42% (3/7)   Compressing objects:  57% (4/7)   Compressing objects:  71% (5/7)   Compressing objects:  85% (6/7)   Compressing objects: 100% (7/7)   Compressing objects: 100% (7/7), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 5.60 KiB | 5.60 MiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/andyjohnfisher/recipe-app-api.git
+   a498583..26d8d2f  master -> master
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ history 
+ 1027  du -s *
+ 1028  . FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1029  du -s *
+ 1030  reset
+ 1031  cd ..
+ 1032  ls -l
+ 1033  svn status 
+ 1034  svn addFA-0016_VideoProcessorCard/scripts/tcl/simulate*
+ 1035  svn add FA-0016_VideoProcessorCard/scripts/tcl/simulate*
+ 1036  . FA-0016_VideoProcessorCard/scripts/linux/build_project.bash 
+ 1037  thunar&
+ 1038  xterm &
+ 1039  top 
+ 1040  . FA-0016_VideoProcessorCard/scripts/linux/build_project.bash 
+ 1041  ps auxww | grep -i viv
+ 1042  cd work/cmr/vision-pipeline
+ 1043  ls
+ 1044  rm -fr FA-0016_VideoProcessorCard.build
+ 1045  . /opt/Xilinx/Vivado/2018.3/settings64.sh 
+ 1046  history 
+ 1047  xterm &
+ 1048  . FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1049  cd work/cmr/vision-pipeline/
+ 1050  du -hs
+ 1051  du -hs *
+ 1052  du -s *
+ 1053  history 
+ 1054  xterm &
+ 1055  du -s *
+ 1056  ls FA-0016_VideoProcessorCard.build
+ 1057  du -s *
+ 1058  top
+ 1059  svn status 
+ 1060  cd FA-0016_VideoProcessorCard/scripts/tcl/
+ 1061  ls
+ 1062  mv create_xilinx_project.tcl temp
+ 1063  svn up create_xilinx_project.tcl
+ 1064  mv temp create_xilinx_project.tcl
+ 1065  ls -l
+ 1066  svn ci -m "NOJIRA updated with new structure"
+ 1067  emacs create_xilinx_project.tcl&
+ 1068  svn ci -m "NOJIRA updated with new structure"
+ 1069  du -s * ; ls FA-0016_VideoProcessorCard.build
+ 1070  du -s * ; ls -l FA-0016_VideoProcessorCard.build
+ 1071  . FA-0016_VideoProcessorCard/scripts/linux/build_project.bash
+ 1072  vivado&
+ 1073  cd FA-0016_VideoProcessorCard/scripts/tcl/
+ 1074  ls -l
+ 1075  ls
+ 1076  rm create_xilinx_project.tcl.*
+ 1077  ls -l 
+ 1078  rm create_xilinx_project_REF.tcl 
+ 1079  svn status 
+ 1080  cp create_xilinx_project.tcl create_xilinx_project.tcl.backup
+ 1081  emacs ~/Desktop/vivado_tcl.txt &
+ 1082  rm -fr FA-0016_VideoProcessorCard.build
+ 1083  . FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1084  vivado&
+ 1085  . FA-0016_VideoProcessorCard/scripts/linux/build_project.bash
+ 1086  vivado&
+ 1087  history 
+ 1088  thunar&
+ 1089  sudo openvpn --config ~/Dropbox/keys/ajf_cmr.ovpn 
+ 1090  ls
+ 1091  cd work/
+ 1092  ls
+ 1093  cd cmr/
+ 1094  ls -l
+ 1095  cd vision-pipeline
+ 1096  ls -l
+ 1097  ls
+ 1098  ls -l
+ 1099  rm vivado_*
+ 1100  ls -l
+ 1101  cd FA-0016_VideoProcessorCard.build
+ 1102  ls -l
+ 1103  cd ..
+ 1104  cd FA-0016_VideoProcessorCard/scripts/
+ 1105  ls
+ 1106  ls -l
+ 1107  ls windows/
+ 1108  ls
+ 1109  more linux/
+ 1110  more ../../FA-0006_CoreSafetySupervisor/scripts/tcl/
+ 1111  more ../../FA-0006_CoreSafetySupervisor/scripts/linux/compile_simulation.bash 
+ 1112  more ../../FA-0006_CoreSafetySupervisor/scripts/linux/run_simulation.bash 
+ 1113  emacs ../../FA-0006_CoreSafetySupervisor/scripts/linux/run_simulation.bash &
+ 1114  more ../../FA-0006_CoreSafetySupervisor/scripts/linux/check_simulation.bash 
+ 1115  more ../../FA-0006_CoreSafetySupervisor/scripts/linux/monitor_sim.bash 
+ 1116  more ../../FA-0006_CoreSafetySupervisor/scripts/linux/check_simulation.bash 
+ 1117  pwd
+ 1118  more ../../FA-0006_CoreSafetySupervisor/scripts/linux/create_project.bash 
+ 1119  cd work/cmr/vision-pipeline
+ 1120  ls -l
+ 1121  #. FA-0006_CoreSafetySupervisor/scripts/linux/build_project.bash 
+ 1122  . /opt/Xilinx/Vivado/2016.4/settings64.sh 
+ 1123  . FA-0006_CoreSafetySupervisor/scripts/linux/build_project.bash 
+ 1124  . FA-0006_CoreSafetySupervisor/scripts/linux/create_project.bash 
+ 1125  . FA-0006_CoreSafetySupervisor/scripts/linux/compile_simulation.bash 
+ 1126  cd ../..
+ 1127  ls -l
+ 1128  . ./FA-0016_VideoProcessorCard/scripts/linux/compile_simulation.bash
+ 1129  #. ./FA-0016_VideoProcessorCard/scripts/linux/compile_simulation.bash 
+ 1130  ls -l
+ 1131  cd FA-0016_VideoProcessorCard.build
+ 1132  ls -l
+ 1133  more FA-0016_VideoProcessorCard.build.runs/
+ 1134  more FA-0016_VideoProcessorCard.build.sim/
+ 1135  cd ..
+ 1136  . /opt/Xilinx/Vivado/2018.3/settings64.sh 
+ 1137  vivado&
+ 1138  . FA-0006_CoreSafetySupervisor/scripts/linux/run_simulation.bash -h
+ 1139  cd work/cmr/vision-pipeline
+ 1140  . FA-0006_CoreSafetySupervisor/scripts/linux/run_simulation.bash -h
+ 1141  cd work/cmr/vision-pipeline
+ 1142  more FA-0006_CoreSafetySupervisor/scripts/linux/run_simulation.bash 
+ 1143  ls
+ 1144  ./FA-0006_CoreSafetySupervisor/scripts/linux/run_simulation.bash -h
+ 1145  ls -l ./FA-0006_CoreSafetySupervisor/scripts/linux/run_simulation.bash -h
+ 1146  chmod +x ./FA-0006_CoreSafetySupervisor/scripts/linux/run_simulation.bash 
+ 1147  ./FA-0006_CoreSafetySupervisor/scripts/linux/run_simulation.bash -h
+ 1148  ./FA-0006_CoreSafetySupervisor/scripts/linux/run_simulation.bash -c -g
+ 1149  ls
+ 1150  sl FA-0016_VideoProcessorCard.build/FA-0016_VideoProcessorCard.build.sim/
+ 1151  ls FA-0016_VideoProcessorCard.build/FA-0016_VideoProcessorCard.build.sim/
+ 1152  ls FA-0016_VideoProcessorCard.build/FA-0016_VideoProcessorCard.build.
+ 1153  ls FA-0016_VideoProcessorCard.build/FA-0016_VideoProcessorCard.build.sim/
+ 1154  ls FA-0016_VideoProcessorCard.build/
+ 1155  ls FA-0016_VideoProcessorCard.build/FA-0016_VideoProcessorCard.build.sim/
+ 1156  more  FA-0016_VideoProcessorCard.build/FA-0016_VideoProcessorCard.build.sim/sim_camera_pipeline/behav/xsim/compile.sh 
+ 1157  more  FA-0016_VideoProcessorCard.build/FA-0016_VideoProcessorCard.build.sim/sim_
+ 1158  rm -fr 
+ 1159  ls
+ 1160  rm -fr FA-0016_VideoProcessorCard.build
+ 1161  . FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1162  rm -fr FA-0016_VideoProcessorCard.build
+ 1163  . FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1164  ls -l
+ 1165  more vivado_7196.backup.log 
+ 1166  ls FA-0016_VideoProcessorCard.build/FA-0016_VideoProcessorCard.build.
+ 1167  vivado -mode batch -source ./FA-0016_VideoProcessorCard/scripts/tcl/create_sims.tcl
+ 1168  ls FA-0016_VideoProcessorCard.build/FA-0016_VideoProcessorCard.build.sim/
+ 1169  rm -fr FA-0016_VideoProcessorCard.build
+ 1170  . FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1171  . FA-0016_VideoProcessorCard/scripts/linux/compile_simulation.bash sim_camera_pipeline
+ 1172  ./FA-0016_VideoProcessorCard/scripts/linux/compile_simulation.bash sim_camera_pipeline
+ 1173  chmod +x ./FA-0016_VideoProcessorCard/scripts/linux/compile_simulation.bash sim_camera_pipeline
+ 1174  ./FA-0016_VideoProcessorCard/scripts/linux/compile_simulation.bash sim_camera_pipeline
+ 1175  ls /home/ajf/work/cmr/vision-pipeline/FA-0016_VideoProcessorCard.build/FA-0016_VideoProcessorCard.build.sim/sim_camera_pipeline/behav
+ 1176  ls /home/ajf/work/cmr/vision-pipeline/FA-0016_VideoProcessorCard.build/FA-0016_VideoProcessorCard.build.sim/sim_camera_pipeline/behav/xsim/
+ 1177  ./FA-0016_VideoProcessorCard/scripts/linux/compile_simulation.bash sim_camera_pipeline
+ 1178  ./FA-0016_VideoProcessorCard/scripts/linux/compile_simulation.bash sim_pcie_full
+ 1179  emacs /home/ajf/work/cmr/vision-pipeline/FA-0016_VideoProcessorCard/sim/pcie/board.sv
+ 1180  ls vivado_*
+ 1181  ls -l vivado_*
+ 1182  emacs vivado_13553.backup.log 
+ 1183  emacs vivado_11867.backup.log 
+ 1184  vivado&
+ 1185  find . -iname 'camarea_pipeline_tb.tcl'
+ 1186  find . -iname 'camera_pipeline_tb.tcl'
+ 1187  more camera_pipeline_tb_behav -key {Behavioral:sim_camera_pipeline:Functional:camera_pipeline_tb} -tclbatch {camera_pipeline_tb.tcl} -log {simulate.log}"
+ 1188  more ./FA-0016_VideoProcessorCard.build/FA-0016_VideoProcessorCard.build.sim/sim_camera_pipeline/behav/xsim/camera_pipeline_tb.tcl
+ 1189  ls FA-0016_VideoProcessorCard/scripts/tcl/
+ 1190  ls FA-0016_VideoProcessorCard/scripts/tcl/simulate.tcl 
+ 1191  more FA-0016_VideoProcessorCard/scripts/tcl/simulate.tcl 
+ 1192  more FA-0016_VideoProcessorCard/scripts/tcl/simulate_vcd_gui.tcl 
+ 1193  chmod +x ./FA-0016_VideoProcessorCard/scripts/linux/run_simulation.bash sim_camera_pipeline
+ 1194  ./FA-0016_VideoProcessorCard/scripts/linux/run_simulation.bash sim_camera_pipeline
+ 1195  ./FA-0016_VideoProcessorCard/scripts/linux/compile_simulation.bash sim_camera_pipeline
+ 1196  ./FA-0016_VideoProcessorCard/scripts/linux/run_simulation.bash sim_camera_pipeline
+ 1197  ./FA-0016_VideoProcessorCard/scripts/linux/run_simulation.bash -g sim_camera_pipeline
+ 1198  more FA-0016_VideoProcessorCard/scripts/tcl/simulate_gui.tcl 
+ 1199  ./FA-0016_VideoProcessorCard/scripts/linux/run_simulation.bash -g sim_camera_pipeline
+ 1200  ./FA-0016_VideoProcessorCard/scripts/linux/run_simulation.bash -g 1 sim_camera_pipeline
+ 1201  ./FA-0016_VideoProcessorCard/scripts/linux/run_simulation.bash -g sim_camera_pipeline
+ 1202  ./FA-0016_VideoProcessorCard/scripts/linux/run_simulation.bash sim_camera_pipeline
+ 1203  ./FA-0016_VideoProcessorCard/scripts/linux/compile_simulation.bash sim_camera_pipeline
+ 1204  ./FA-0016_VideoProcessorCard/scripts/linux/run_simulation.bash sim_camera_pipeline
+ 1205  svn status 
+ 1206  cd FA-0016_VideoProcessorCard
+ 1207  cd scripts/
+ 1208  svn status 
+ 1209  svn add linux/compile_simulation.bash linux/run_simulation.bash tcl/create_sims.tcl
+ 1210  svn status 
+ 1211  svn ci -m "NOJIRA updated with simulation scripts"
+ 1212  cd ..
+ 1213  svn status 
+ 1214  svn ci -m "NOJIRA updated with simulation scripts"
+ 1215  svn status 
+ 1216  history 
+ 1217  ./Ultimaker_Cura-4.1.0.AppImage 
+ 1218  xrandr 
+ 1219  xrandr --output DP-3 --mode 2560x1600 --pos 0x0 --rotate normal --output DP-2 --mode 1920x1080 --pos 2560x0 -rotate normal
+ 1220  xrandr --output DP-3 --mode 2560x1600 --pos 0x0 --rotate normal --output DP-2 --mode 1920x1080 --pos 2560x0 --rotate normal
+ 1221  xrandr --output DP-3 --mode 2560x1600 --pos 0x0 --rotate normal --output DP-2 --mode 1920x1080 --pos 2560x100 --rotate normal
+ 1222  xrandr --output DP-3 --mode 2560x1600 --pos 1920x0 --rotate normal --output DP-2 --mode 1920x1080 --pos 0x0 --rotate normal
+ 1223  xrandr --output DP-3 --mode 2560x1600 --pos 0x0 --rotate normal --output DP-2 --mode 1920x1080 --pos 2560x100 --rotate normal
+ 1224  xrandr --output DP-3 --mode 2560x1600 --pos 0x0 --rotate normal --output DP-2 --mode 1920x1080 --pos 2560x0 --rotate normal
+ 1225  mkdir scripts/
+ 1226  cd scripts/
+ 1227  history | tail -10 > posmon.bash
+ 1228  emacs posmon.bash &
+ 1229  chmod +x posmon.bash
+ 1230  xrandr | grep " connected " | awk '{ print$1 }'
+ 1231  xrandr | grep " connected " | awk 'BEGIN { ORS="" } { print$1 } END { print "\n" }'
+ 1232  xrandr | grep " connected " | awk 'BEGIN { ORS="," } { print$1 } END { print "\n" }'
+ 1233  ./posmon.bash 
+ 1234  xrandr | grep " connected " | sort | awk 'BEGIN { ORS="," } { print$1 } END { print "\n" }'
+ 1235  ./posmon.bash 
+ 1236  xrandr 
+ 1237  xrandr | grep " conected "
+ 1238  xrandr | grep " connected "
+ 1239  ./posmon.bash 
+ 1240  udevadm monitor
+ 1241  udevadm info -q all
+ 1242  udevadm info 
+ 1243  udevadm info -q monitor
+ 1244  udevadm info -q drm
+ 1245  udevadm info -q all -a drm
+ 1246  udevadm info -a -p /sys/class/drm/card0 
+ 1247  udevadm info -a -p /sys/class/drm/card0 -z
+ 1248  udevadm info 
+ 1249  udevadm info -a -p /sys/class/drm/card0 
+ 1250  sudo emacs /etc/udev/rules.d/80-ajfmonitor.rules
+ 1251  bg
+ 1252  udevadm monitor
+ 1253  udevadm control --reload
+ 1254  sudo udevadm control --reload
+ 1255  udevadm monitor
+ 1256  /home/ajf/sripts/posmon.bash
+ 1257  /home/ajf/scripts/posmon.bash 
+ 1258  sudo udevadm control --reload
+ 1259  udevadm monitor
+ 1260  sudo udevadm control --reload
+ 1261  udevadm monitor
+ 1262  udevadm 
+ 1263  man udevadm 
+ 1264  udevadm trigger -v
+ 1265  udevadm trigger -v| more
+ 1266  udevadm trigger -v| grep di
+ 1267  udevadm trigger -v| grep card
+ 1268  udevadm trigger -v| grep vga
+ 1269  udevadm trigger -v| grep displ
+ 1270  udevadm trigger -v| grep moni
+ 1271  history 
+ 1272  ls /sys/class/drm_dp_aux_dev/
+ 1273  ls /etc/udev/rules.d/ /sys/class/drm_dp_aux_dev/
+ 1274  udevadm info -a -p /sys/class/drm/card0 
+ 1275  udevadm monitor --property
+ 1276  sudo apt-get install randrd
+ 1277  cd scripts/
+ 1278  mv posmon.bash monpos.bash
+ 1279  while true; do ./monpos.bash ; sleep 2; done
+ 1280  emacs monpos.bash 
+ 1281  sudo rm /etc/udev/rules.d/80-ajfmonitor.rules*
+ 1282  tail -f /var/log/syslog
+ 1283  mount
+ 1284  mount | grep media
+ 1285  sudo useradd --create-home --shell /bin/bash --comment "Jacob Maggs" jake
+ 1286  passwd jake
+ 1287  sudo passwd jake
+ 1288  ls /home/jake/
+ 1289  ls /home/jake/Desktop/
+ 1290  sudo ls /home/jake/Desktop/
+ 1291  sudo ls /home/jake
+ 1292  sudo ls /home/jake/to_upload/
+ 1293  sudo du -h /home/jake/to_upload/
+ 1294  sudo rm -fr /home/jake/to_upload/ex*
+ 1295  sudo ls -l /home/jake/to_upload/
+ 1296  su - jake
+ 1297  scp jake@localhost:ccc.zip /home/ajf/Desktop/
+ 1298  while true; do ./monpos.bash ; sleep 2; done
+ 1299  ./scripts/monpos.bash
+ 1300  sudo openvpn --config ~/Dropbox/keys/ajf_cmr.ovpn 
+ 1301  sudo apt-get install openvpn network-manager-openvpn network-manager-openvpn-gnome network-manager-vpnc
+ 1302  sudo /etc/init.d/networking restart
+ 1303  sudo openvpn --config ~/Dropbox/keys/ajf_cmr.ovpn 
+ 1304  ma ope
+ 1305  reset
+ 1306  man openvpn
+ 1307  sudo openvpn --config ~/Dropbox/keys/ajf_cmr.ovpn --user andy.fisher
+ 1308  reset
+ 1309  man openvpn
+ 1310  pushd ~/Dropbox/keys/
+ 1311  emacs cmr&
+ 1312  history 
+ 1313  . cmr
+ 1314  history reset
+ 1315  reset
+ 1316  mv cmr.cred* ~/.ssh
+ 1317  . cmr
+ 1318  echo $PATH
+ 1319  cd ~/Dropbox/keys/
+ 1320  ls
+ 1321  rm *~
+ 1322  mv cmr ../scripts/cmrvpn
+ 1323  cd
+ 1324  chmod +x ~/Dropbox/scripts/cmrvpn 
+ 1325  ./cmrvpn
+ 1326  ech $PATH
+ 1327  echo $PATH
+ 1328  ls /home/ajf/Dropbox/scripts/
+ 1329  ls -l /home/ajf/Dropbox/scripts/
+ 1330  ./cmrvpn
+ 1331  emacs ~/Dropbox/scripts/cmrvpn 
+ 1332  ./cmrvpn
+ 1333  emacs ~/Dropbox/scripts/cmrvpn 
+ 1334  ls -l ~/Dropbox/scripts/cmrvpn 
+ 1335  ~/Dropbox/scripts/cmrvpn 
+ 1336  ./cmrvpn
+ 1337  ls -l
+ 1338  ls ~/Dropbox/scripts/
+ 1339  . /opt/Xilinx/Vivado/2018.3/settings64.sh 
+ 1340  vivado&
+ 1341  cmrvpn
+ 1342  pwd
+ 1343  ls -l
+ 1344  cd work/cmr/vision-pipeline
+ 1345  ls -l
+ 1346  cd FA-0016_VideoProcessorCard.build
+ 1347  ls
+ 1348  cd ..
+ 1349  cd FA-0016_VideoProcessorCard.build/FA-0016_VideoProcessorCard.build.sim/sim_camera_pipeline/behav/xsim/
+ 1350  ls
+ 1351  ls *.log
+ 1352  ls -lc*.log
+ 1353  ls -l *.log
+ 1354  tail debayered.log 
+ 1355  wc -l debayered.log 
+ 1356  more debayered.log 
+ 1357  emacs snap.ppm
+ 1358  bg
+ 1359  mv snap.ppm head.txt
+ 1360  cat head.txt debayered.log > test.ppm
+ 1361  display test.ppm 
+ 1362  emacs head.txt &
+ 1363  cat head.txt debayered.log > test.ppm
+ 1364  display test.ppm 
+ 1365  cat head.txt debayered.log > test.ppm
+ 1366  display test.ppm 
+ 1367  ls
+ 1368  ls -l
+ 1369  ls *.log
+ 1370  more testcard.log 
+ 1371  wc -l debayered.log 
+ 1372  cat head.txt debayered.log > test.ppm
+ 1373  display test.ppm 
+ 1374  cat head.txt debayered.log > test.ppm
+ 1375  display test.ppm 
+ 1376  cat head.txt debayered.log > test.ppm
+ 1377  display test.ppm 
+ 1378  ping www.google.com
+ 1379  ping smtp.webfaction.com
+ 1380  ping www.google.com
+ 1381  ping smtp.webfaction.com
+ 1382  cat head.txt debayered.log > test.ppm
+ 1383  display test.ppm 
+ 1384  cd work/cmr/
+ 1385  find . -iname '*.py'
+ 1386  find . -iname '*ed.py'
+ 1387  pwd
+ 1388  python ~/work/cmr/vision-pipeline/FA-0016_VideoProcessorCard/sim/camera_pipeline/check_unreflected.py 
+ 1389  python ~/work/cmr/vision-pipeline/FA-0016_VideoProcessorCard/sim/camera_pipeline/check_reflected.py 
+ 1390  x11vnc 
+ 1391  monpos.bash
+ 1392  hois pcbrewind.org
+ 1393  sudo apt install whois
+ 1394  whois pcbrewind.org
+ 1395  cd Downloads
+ 1396  ./Ultimaker_Cura-4.1.0.AppImage &
+ 1397  ./Ultimaker_Cura-4.6.0.AppImage 
+ 1398  ls ~
+ 1399  ls ~/.*
+ 1400  ls -ld ~/.*
+ 1401  cd ~/.config/
+ 1402  ls
+ 1403  cd ../.local/share/cura/
+ 1404  ls
+ 1405  ls -l
+ 1406  cd ..
+ 1407  mv cura/ ~/Desktop/DOTlocal_share_cura
+ 1408  cd ../../.config/
+ 1409  ls
+ 1410  mv cura ~/Desktop/DOTconfig/cura
+ 1411  mv .cura ~/Desktop/DOTconfig_cura
+ 1412  mv cura ~/Desktop/DOTconfig_cura
+ 1413  cd
+ 1414  cd Downloads
+ 1415  ./Ultimaker_Cura-4.6.0.AppImage 
+ 1416  ls /home/jake/to_upload/
+ 1417  sudo ls /home/jake/to_upload/
+ 1418  cd /backups/
+ 1419  ls
+ 1420  ls -l
+ 1421  history | grep back
+ 1422  pwd
+ 1423  ls ~/scripts/
+ 1424  ls -l
+ 1425  ls homeajf/
+ 1426  ls -l
+ 1427  ls synology/
+ 1428  ls backup_pi_at_adrians/
+ 1429  ls backup_pi_at_adrians//scripts/
+ 1430  more backup_pi_at_adrians//scripts/backup.bash
+ 1431  ls
+ 1432  ls ~
+ 1433  history | grep -i ba
+ 1434  history | grep -i up
+ 1435  cd
+ 1436  ls -l
+ 1437  ls scripts/
+ 1438  cd 
+ 1439  ls /
+ 1440  cd /backups/
+ 1441  ls -l
+ 1442  ls -la
+ 1443  ls *
+ 1444  reset
+ 1445  ls
+ 1446  ls backup_pi_at_adrians/
+ 1447  ls homeajf/
+ 1448  reset
+ 1449  ls
+ 1450  ls backup_pi_at_adrians/
+ 1451  ls lost+found/
+ 1452  ls synology/
+ 1453  history | grep syn
+ 1454  fin ~ -iname 'backup*'
+ 1455  find ~ -iname 'backup*'
+ 1456  find ~ -iname 'backup.*'
+ 1457  cd vision-pipeline/FA-0016_VideoProcessorCard/sim/camera_pipeline/
+ 1458  ls -l
+ 1459  python testcard.py 
+ 1460  python test_tc.py 
+ 1461  ls ../../../FA-0016_VideoProcessorCard.build/FA-0016_VideoProcessorCard.build.sim/sim_camera_pipeline/behav/xsim/
+ 1462  python test_tc.py 
+ 1463  python test_tc.py |head
+ 1464  reset;python test_tc.py |head -30
+ 1465  ppyth testcard.py
+ 1466  python testcard.py
+ 1467  python
+ 1468  python testcard.py
+ 1469  reset;python test_tc.py |head -30
+ 1470  reset;python test_tc.py 
+ 1471  reset;python test_tc.py | more
+ 1472  reset;python test_tc.py | less
+ 1473  find /backups/ -iname 'backup.*'
+ 1474  reset;python test_tc.py 
+ 1475  rm test_tc.py
+ 1476  python test_testcard.py 
+ 1477  python test_incomming.py 
+ 1478  python test_bayer_x9.py 
+ 1479  python test_bayer_x9.py | head
+ 1480  reset
+ 1481  python test_bayer_x9.py | head
+ 1482  python test_bayer_x9.py | less
+ 1483  reset
+ 1484  python test_bayer_x9.py | less
+ 1485  python test_bayer_x9.py | head -20
+ 1486  python test_bayer_x9.py | more
+ 1487  python test_bayer_x9.py 
+ 1488  python test_reflected9.py 
+ 1489  mv test_bayer_x9.py test_grid9.py
+ 1490  python test_reflected9.py 
+ 1491  python test_grid9.py 
+ 1492  python test_reflected9.py 
+ 1493  find ~/work/cmr/vision-pipeline/FA-0016_VideoProcessorCard -iname '*.v'
+ 1494  find ~/work/cmr/vision-pipeline/FA-0016_VideoProcessorCard -iname '*.v' -exec grep -i measure_bl_wb {} \;
+ 1495  find ~/work/cmr/vision-pipeline/FA-0016_VideoProcessorCard -iname '*.v' -exec grep -i measure_ {} \;
+ 1496  find ~/work/cmr/vision-pipeline/FA-0016_VideoProcessorCard -iname '*.v' -exec grep -i -C5 measure_bl_wb {} \;
+ 1497  pwd
+ 1498  cd ../../..
+ 1499  cd vision-pipeline
+ 1500  rm vivado*
+ 1501  rm ~/vivado*
+ 1502  vivado&
+ 1503  cd ..
+ 1504  ls -l
+ 1505  cd ../scripts/
+ 1506  ls -l
+ 1507  cd linux/
+ 1508  ls -l
+ 1509  rm *~
+ 1510  ls -l
+ 1511  emacs run_simulation.bash &
+ 1512  ls
+ 1513  cd ../..
+ 1514  cd sim/
+ 1515  ls
+ 1516  cd python_post/
+ 1517  ls -l
+ 1518  emacs *.py
+ 1519  ./FA-0016_VideoProcessorCard/scripts/linux/compile_simulation.bash 
+ 1520  cd ..
+ 1521  cd vision-pipeline/
+ 1522  ls -l
+ 1523  rm FA-0016_VideoProcessorCard.tgz 
+ 1524  rm FA-0016_VideoProcessorCard.build.existing.tgz 
+ 1525  rm -fr FA-0016_VideoProcessorCard.build.existing
+ 1526  ls -l
+ 1527  mv FA-0016_VideoProcessorCard.build FA-0016_VideoProcessorCard.build.existing
+ 1528  ./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1529  rm -fr FA-0016_VideoProcessorCard.build
+ 1530  ls -l
+ 1531  rm vivado*
+ 1532  ls -l
+ 1533  rm hs_err_pid11772.log 
+ 1534  ls -l
+ 1535  reset
+ 1536  ./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1537  ./FA-0016_VideoProcessorCard/scripts/linux/compile_simulation.bash sim_camera_pipeline
+ 1538  ./FA-0016_VideoProcessorCard/scripts/linux/run_simulation.bash sim_camera_pipeline
+ 1539  ls
+ 1540  ls
+ 1541  python
+ 1542  reset;./FA-0016_VideoProcessorCard/scripts/linux/run_simulation.bash sim_camera_pipeline
+ 1543  pushd FA-0016_VideoProcessorCard.build/FA-0016_VideoProcessorCard.build.sim/sim_camera_pipeline/behav/xsim/
+ 1544  pythopn ../../../../../FA-0016_VideoProcessorCard/sim/python_post/test_incomming.py 
+ 1545  python ../../../../../FA-0016_VideoProcessorCard/sim/python_post/test_incomming.py 
+ 1546  python ../../../../../FA-0016_VideoProcessorCard/sim/python_post/test_testcard.py 
+ 1547  more testcard.log 
+ 1548  python ../../../../../FA-0016_VideoProcessorCard/sim/python_post/test_testcard.py 
+ 1549  popd
+ 1550  ./FA-0016_VideoProcessorCard/scripts/linux/compile_simulation.bash sim_camera_pipeline
+ 1551  ./FA-0016_VideoProcessorCard/scripts/linux/run_simulation.bash sim_camera_pipeline
+ 1552  pushd FA-0016_VideoProcessorCard.build/FA-0016_VideoProcessorCard.build.sim/sim_camera_pipeline/behav/xsim/
+ 1553  python ../../../../../FA-0016_VideoProcessorCard/sim/python_post/test_incomming.py 
+ 1554  python ../../../../../FA-0016_VideoProcessorCard/sim/python_post/test_testcard.py 
+ 1555  python ../../../../../FA-0016_VideoProcessorCard/sim/python_post/test_grid9.py 
+ 1556  ls -l
+ 1557  python ../../../../../FA-0016_VideoProcessorCard/sim/python_post/test_unreflected.py 
+ 1558  rm ../../../../../FA-0016_VideoProcessorCard/sim/python_post/test_grid9.py 
+ 1559  python ../../../../../FA-0016_VideoProcessorCard/sim/python_post/test_unreflected.py 
+ 1560  python ../../../../../FA-0016_VideoProcessorCard/sim/python_post/test_reflected9.py 
+ 1561  popd
+ 1562  python ../../../../../FA-0016_VideoProcessorCard/sim/python_post/test_reflected9.py 
+ 1563  pushd FA-0016_VideoProcessorCard.build/FA-0016_VideoProcessorCard.build.sim/sim_camera_pipeline/behav/xsim/
+ 1564  python ../../../../../FA-0016_VideoProcessorCard/sim/python_post/test_reflected.py 
+ 1565  python ../../../../../FA-0016_VideoProcessorCard/sim/python_post/test_incomming.py 
+ 1566  [Apopd
+ 1567  popd
+ 1568  reset
+ 1569  ./FA-0016_VideoProcessorCard/scripts/linux/run_simulation.bash sim_camera_pipeline
+ 1570  reset;./FA-0016_VideoProcessorCard/scripts/linux/run_simulation.bash sim_camera_pipeline
+ 1571  pushd FA-0016_VideoProcessorCard.build/FA-0016_VideoProcessorCard.build.sim/sim_camera_pipeline/behav/xsim/
+ 1572  python /home/ajf/work/cmr/vision-pipeline/FA-0016_VideoProcessorCard/sim/python_post/test_incomming.py 
+ 1573  vivado&
+ 1574  popd
+ 1575  vivado&
+ 1576  ls -l 
+ 1577  mv FA-0016_VideoProcessorCard.build FA-0016_VideoProcessorCard.build.existing2
+ 1578  reset
+ 1579  ./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1580  ./FA-0016_VideoProcessorCard/scripts/linux/compile_simulation.bash 
+ 1581  ls FA-0016_VideoProcessorCard.build/FA-0016_VideoProcessorCard.build.sim/
+ 1582  ./FA-0016_VideoProcessorCard/scripts/linux/compile_simulation.bash sim_pcie_full
+ 1583  cd work/cmr/vision-pipeline/
+ 1584  screen -r
+ 1585  . /opt/Xilinx/Vivado/2018.3/settings64.sh
+ 1586  ./FA-0016_VideoProcessorCard/scripts/linux/compile_simulation.bash 
+ 1587  ls ./FA-0016_VideoProcessorCard.build/FA-0016_VideoProcessorCard.build.sim
+ 1588  ./FA-0016_VideoProcessorCard/scripts/linux/compile_simulation.bash sim_pcie_full
+ 1589  ls -l
+ 1590  reset
+ 1591  ls
+ 1592  rm -fr FA-0016_VideoProcessorCard.build
+ 1593  ./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1594  rm -fr FA-0016_VideoProcessorCard.build
+ 1595  emacs -nw FA-0016_VideoProcessorCard/scripts/tcl/create_sims.tcl
+ 1596  reset
+ 1597  ./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1598  ./FA-0016_VideoProcessorCard/scripts/linux/compile_simulation.bash sim_pcie_full
+ 1599  ./FA-0016_VideoProcessorCard/scripts/linux/run_simulation.bash sim_pcie_full
+ 1600  . /opt/Xilinx/Vivado/2018.3/settings64.sh 
+ 1601  ./FA-0016_VideoProcessorCard/scripts/linux/run_simulation.bash sim_pcie_full
+ 1602  . ./FA-0016_VideoProcessorCard/scripts/linux/run_simulation.bash sim_pcie_full
+ 1603  screen
+ 1604  screen -r
+ 1605  ls
+ 1606  rm vivado*
+ 1607  ls -l
+ 1608  cd FA-0016_VideoProcessorCard/scripts/linux/
+ 1609  ls -l
+ 1610  more create_project.bash 
+ 1611  more compile_simulation.bash 
+ 1612  more build_project.bash 
+ 1613  more run_simulation.bash 
+ 1614  ls
+ 1615  ls -l
+ 1616  emacs -nw *.py
+ 1617  emacs -nw *.bash
+ 1618  ls -l
+ 1619  cd ../..
+ 1620  cd ..
+ 1621  ls 
+ 1622  reset
+ 1623  ls
+ 1624  rm -fr FA-0016_VideoProcessorCard.build
+ 1625  ./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1626  emacs FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1627  rm -fr FA-0016_VideoProcessorCard.build
+ 1628  reset
+ 1629  ./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1630  screen
+ 1631  ls -l
+ 1632  rm -fr FA-0016_VideoProcessorCard.build
+ 1633  reset
+ 1634  ./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1635  vivado&
+ 1636  cd ../../..
+ 1637  cd example/xdma_0_ex/imports/
+ 1638  ls
+ 1639  cp board.v board.sv
+ 1640  cd ~/Downloads
+ 1641  chmod +x kdenlive-20.04.0b-x86_64.appimage 
+ 1642  ls -l
+ 1643  rm -fr FA-0016_VideoProcessorCard.build
+ 1644  reset;./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1645  ./kdenlive-20.04.0b-x86_64.appimage 
+ 1646  sudo apt-get install  frei0r-plugins
+ 1647  rm -fr FA-0016_VideoProcessorCard.build
+ 1648  reset;./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1649  vivado&
+ 1650  pwd
+ 1651  cd work/cmr/vision-pipeline/FA-0016_VideoProcessorCard/src/xilinx_ip/xdma/
+ 1652  ls
+ 1653  ls ip*/sim/*
+ 1654  find . -iname 'xdma_core_top*'
+ 1655  find . -iname '*xdma_core_top*'
+ 1656  find . -iname '*xdma_0_core_top*'
+ 1657  find . -iname '*axis_*'
+ 1658  more ./hdl/verilog/dma_pcie_axis_rq_if.svh
+ 1659  find . -iname '*udma_*'
+ 1660  find . -iname '*udma*'
+ 1661  find . -iname '*xil_def*'
+ 1662  find .. -iname '*xil_def*'
+ 1663  find ../.. -iname '*xil_def*'
+ 1664  find ../../../../ -iname '*xil_def*'
+ 1665  cd ../..
+ 1666  ls -l
+ 1667  rm -fr FA-0016_VideoProcessorCard.build
+ 1668  reset;./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1669  ./kdenlive-20.04.0b-x86_64.appimage 
+ 1670  bg
+ 1671  pip3 install opentimelineio
+ 1672  sudo apt install python3-pip
+ 1673  sudo pip3 install opentimelineio
+ 1674  rm -fr FA-0016_VideoProcessorCard.build
+ 1675  reset;./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1676  tail -f /var/log/syslog
+ 1677  #dd if=/dev/zero of=/dev/sde
+ 1678  tail -f /var/log/syslog
+ 1679  sudo dd if=/dev/zero of=/dev/sde
+ 1680  pwd
+ 1681  vivado&
+ 1682  cd synology/
+ 1683  ls -l
+ 1684  more scripts/
+ 1685  more scripts/backup.bash
+ 1686  ls -l
+ 1687  du -hs 2020_05_09-14_01_08-incomplete/
+ 1688  watch 'du -hs 2020_05_09-14_01_08-incomplete/'
+ 1689  watch 'du -s 2020_05_09-14_01_08-incomplete/'
+ 1690  emacs scripts/backup.bash
+ 1691  bg
+ 1692  ls /nfs/
+ 1693  ls /nfs/services/
+ 1694  ./scripts/backup.bash
+ 1695  ls -l
+ 1696  rm -fr 2020_05_09-14_01_08-incomplete/
+ 1697  ls 2020_05_09-14_04_58-incomplete/
+ 1698  ./scripts/backup.bash
+ 1699  rm -fr 2020_05_09-14_01_08-incomplete/
+ 1700  rm -fr 2020_05_09-14_04_58-incomplete/
+ 1701  ls 2020_05_09-14_06_01-incomplete/
+ 1702  ls 2020_05_09-14_06_01-incomplete/services/
+ 1703  du -hs 2020_05_09-14_06_01-incomplete/services/
+ 1704  du -hs 2020_05_09-14_06_01-incomplete/home/
+ 1705  du -hs 2020_05_09-14_06_01-incomplete/services/
+ 1706  du -hs 2020_05_09-14_06_01-incomplete
+ 1707  watch 'du -hs 2020_05_09-14_06_01-incomplete'
+ 1708  watch 'du -hs 2020_05_09-14_06_01-incomplete;du -hs 2020_05_09-14_06_01-incomplete/services'
+ 1709  ./scripts/backup.bash
+ 1710  cd Downloads
+ 1711  ./kdenlive-20.04.0b-x86_64.appimage &
+ 1712  watch 'du -hs 2020_05_09-14_06_01-incomplete;du -hs 2020_05_09-14_06_01-incomplete/*'
+ 1713  . /opt/Xilinx/Vivado/2018.3/settings64.sh 
+ 1714  vivado&
+ 1715  ./kdenlive-20.04.0b-x86_64.appimage &
+ 1716  ls -l
+ 1717  cd work/cmr/vision-pipeline/FA-0016_VideoProcessorCard
+ 1718  find . -iname '*.*v*'
+ 1719  find . -iname '*.*v*' -exec grep -il timescale {} \;
+ 1720  find . -iname '*.*v*' -exec grep -i timescale {} \;
+ 1721  man grep
+ 1722  find . -iname '*.*v*' -exec grep -il timescale {} \;
+ 1723  find . -iname '*.*v*' -exec grep -il "timescale 1ps" {} \;
+ 1724  find . -iname '*.*v*' -exec grep -il "timescale 1ns" {} \;
+ 1725  find . -iname '*.*v*' -exec grep -il "timescale 1ns" {} \; | grep -v "~"
+ 1726  ./scripts/backup.bash
+ 1727  ps -auxww | grep meld
+ 1728  killall meld
+ 1729  cd scripts/tcl/
+ 1730  ls
+ 1731  ls -l
+ 1732  cp create_xilinx_project.tcl create_xilinx_project.tcl.KEEP
+ 1733  ls -l
+ 1734  rm -r FA-0016_VideoProcessorCard.build*
+ 1735  ls -l
+ 1736  rm vivado*
+ 1737  ls -l
+ 1738  #./FA-0016_VideoProcessorCard/
+ 1739  reset
+ 1740  ./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1741  rm -r FA-0016_VideoProcessorCard.build*
+ 1742  reset
+ 1743  ./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1744  vivado&
+ 1745  rm -r FA-0016_VideoProcessorCard.build*
+ 1746  ./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1747  vivado&
+ 1748  rm -r FA-0016_VideoProcessorCard.build*
+ 1749  ./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1750  rm -r FA-0016_VideoProcessorCard.build*
+ 1751  ./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1752  vivado&
+ 1753  ls FA-0016_VideoProcessorCard/scripts/tcl/
+ 1754  rm FA-0016_VideoProcessorCard/scripts/tcl/create_xilinx_project.tcl
+ 1755  svn up FA-0016_VideoProcessorCard/scripts/tcl/create_xilinx_project.tcl
+ 1756  rm -r FA-0016_VideoProcessorCard.build*
+ 1757  ./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1758  rm -r FA-0016_VideoProcessorCard.build*
+ 1759  ./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1760  vivado&
+ 1761  rm -r FA-0016_VideoProcessorCard.build*
+ 1762  ./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1763  rm -r FA-0016_VideoProcessorCard.build*
+ 1764  reset
+ 1765  ./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1766  rm -r FA-0016_VideoProcessorCard.build*
+ 1767  reset
+ 1768  ./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1769  vivado&
+ 1770  rm -r FA-0016_VideoProcessorCard.build*
+ 1771  ls
+ 1772  cp create_xproj_build.tcl create_xilinx_project.tcl
+ 1773  reset
+ 1774  ./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1775  rm -r FA-0016_VideoProcessorCard.build*
+ 1776  reset
+ 1777  ./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1778  vivado&
+ 1779  xterm
+ 1780  xterm&
+ 1781  xlogo 
+ 1782  fg
+ 1783  bg
+ 1784  cd work/cmr/vision-pipeline/
+ 1785  ls
+ 1786  exec env ENV='' HISTFILE=~/.tramp_history PROMPT_COMMAND='' PS1=\#\$\  PS2='' PS3='' /bin/sh 
+ 1787  ls FA-0016_VideoProcessorCard.build/
+ 1788  more ~/Desktop/vivado_tcl.txt
+ 1789  emacs ~/Desktop/vivado_tcl.txt
+ 1790  bg
+ 1791  ls -l
+ 1792  rm vivado*
+ 1793  ls -l
+ 1794  . /opt/Xilinx/Vivado/2018.3/settings64.sh 
+ 1795  ls -l
+ 1796  rm -r FA-0016_VideoProcessorCard.build/
+ 1797  cp FA-0016_VideoProcessorCard/scripts/tcl/create_xproj_build.tcl FA-0016_VideoProcessorCard/scripts/tcl/create_xilinx_project.tcl
+ 1798  ./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1799  vivado&
+ 1800  history 
+ 1801  rm -r FA-0016_VideoProcessorCard.build/
+ 1802  cp FA-0016_VideoProcessorCard/scripts/tcl/create_xproj_behave.tcl FA-0016_VideoProcessorCard/scripts/tcl/create_xilinx_project.tcl
+ 1803  ./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1804  vivado
+ 1805  bg
+ 1806  history 
+ 1807  ls FA-0016_VideoProcessorCard/scripts/tcl/
+ 1808  ls -l FA-0016_VideoProcessorCard/scripts/tcl/
+ 1809  ls -l FA-0016_VideoProcessorCard/scripts/tcl/*xproj*
+ 1810  ls -l FA-0016_VideoProcessorCard/scripts/tcl/*xproj*.tcl
+ 1811  rm -r FA-0016_VideoProcessorCard.build/
+ 1812  mv FA-0016_VideoProcessorCard/scripts/tcl/create_xproj_camera_pipeline.tcl FA-0016_VideoProcessorCard/scripts/tcl/create_xilinx_project.tcl
+ 1813  ./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1814  history 
+ 1815  vivado&
+ 1816  ls -l FA-0016_VideoProcessorCard/scripts/tcl/*xproj*.tcl
+ 1817  rm -r FA-0016_VideoProcessorCard.build/
+ 1818  cp FA-0016_VideoProcessorCard/scripts/tcl/create_xproj_cpipe.tcl FA-0016_VideoProcessorCard/scripts/tcl/create_xilinx_project.tcl
+ 1819  cp FA-0016_VideoProcessorCard/scripts/tcl/create_xproj_campipe.tcl FA-0016_VideoProcessorCard/scripts/tcl/create_xilinx_project.tcl
+ 1820  reset
+ 1821  ./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1822  ls -l
+ 1823  ls FA-0016_VideoProcessorCard.campipe/
+ 1824  vivado
+ 1825  #./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash
+ 1826  ls -l
+ 1827  rm -r FA-0016_VideoProcessorCard.*
+ 1828  ./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash
+ 1829  ls FA-0016_VideoProcessorCard.campipe/
+ 1830  rm -r FA-0016_VideoProcessorCard.*
+ 1831  ls
+ 1832  rm -r project_1/ campipe/
+ 1833  rm vivado*
+ 1834  ls -l
+ 1835  rm hs_err_pid*
+ 1836  ls -l
+ 1837  rm create_*
+ 1838  ls -l
+ 1839  cd FA-0016_VideoProcessorCard/scripts/tcl/
+ 1840  ls -l
+ 1841  rm *~
+ 1842  ls
+ 1843  ls -l
+ 1844  more add_ip_to_sims.tcl 
+ 1845  svn status 
+ 1846  rm add_ip_to_sims.tcl 
+ 1847  rm create_xilinx_project_sim1.tcl create_xilinx_project.tcl.KEEP 
+ 1848  svn status 
+ 1849  svn add create_xproj_*
+ 1850  svn del create_xilinx_project.tcl 
+ 1851  rm create_xilinx_project.tcl 
+ 1852  svn up create_xilinx_project.tcl 
+ 1853  svn del create_xilinx_project.tcl 
+ 1854  svn status 
+ 1855  svn mv create_sims.tcl create_sims_build.tcl 
+ 1856  cp create_sims_build.tcl create_sims_behave.tcl 
+ 1857  cp create_sims_build.tcl create_sims_campipe.tcl 
+ 1858  ls -l
+ 1859  more build_xilinx_project.tcl 
+ 1860  more simulate*
+ 1861  ls -l
+ 1862  svn status 
+ 1863  svn add create_sims_behave.tcl 
+ 1864  svn add create_sims_campipe.tcl 
+ 1865  svn status 
+ 1866  cd ../../
+ 1867  cd ..
+ 1868  ls -l
+ 1869  rm FA0016-test/
+ 1870  rm -r FA0016-test/
+ 1871  ls -l
+ 1872  ./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash 
+ 1873  ls -l
+ 1874  vivado&
+ 1875  ls
+ 1876  ls FA-0016_VideoProcessorCard.build/FA-0016_VideoProcessorCard.build.sim/sim_1/behav/xsim/
+ 1877  vivado&
+ 1878  top
+ 1879  ls FA-0016_VideoProcessorCard/sim/scripts/test.tbs 
+ 1880  more FA-0016_VideoProcessorCard/sim/scripts/test.tbs 
+ 1881  vivado&
+ 1882  svn stats
+ 1883  svn status 
+ 1884  rm temp.v vivado*
+ 1885  svn status 
+ 1886  ls -l
+ 1887  ls FA-0016_VideoProcessorCard.campipe/FA-0016_VideoProcessorCard.campipe.sim/sim_1/behav/xsim/
+ 1888  more 
+ 1889  ls FA-0016_VideoProcessorCard.campipe/FA-0016_VideoProcessorCard.campipe.sim/sim_1/behav/xsim/
+ 1890  svn status 
+ 1891  rapidsvn &
+ 1892  rm -r FA-0016_VideoProcessorCard.*
+ 1893  reset
+ 1894  ./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash build
+ 1895  vivado&
+ 1896  ./FA-0016_VideoProcessorCard/scripts/linux/create_project.bash behave
+ 1897  cd Downloads
+ 1898  vivado&
+ 1899  cd FA-0016_VideoProcessorCard/sim/
+ 1900  ls
+ 1901  svn move xdma_behave.v pcie_behave/
+ 1902  svn add pcie_behave/
+ 1903  svn move xdma_behave.v pcie_behave/
+ 1904  ls
+ 1905  ls -l
+ 1906  more cxp_behavioural.v 
+ 1907  svn move cxp_behavioural.v pcie_behave/
+ 1908  cd ../..
+ 1909  ./FA-0016_VideoProcessorCard/scripts/linux/compile_simulation.bash 
+ 1910  ./FA-0016_VideoProcessorCard/scripts/linux/compile_simulation.bash behave
+ 1911  ./FA-0016_VideoProcessorCard/scripts/linux/run_simulation.bash -v behave
+ 1912  ls /home/ajf/work/cmr/vision-pipeline/FA-0016_VideoProcessorCard.behave/FA-0016_VideoProcessorCard.behave.sim/sim_1/behav/xsim
+ 1913  ./FA-0016_VideoProcessorCard/scripts/linux/run_simulation.bash -v behave
+ 1914  ./FA-0016_VideoProcessorCard/scripts/linux/compile_simulation.bash behave
+ 1915  ./FA-0016_VideoProcessorCard/scripts/linux/run_simulation.bash -v behave
+ 1916  history 
+ 1917  ./FA-0016_VideoProcessorCard/scripts/linux/compile_simulation.bash behave ; ./FA-0016_VideoProcessorCard/scripts/linux/run_simulation.bash -v behave
+ 1918  find FA-0016_VideoProcessorCard -type f -iname '*.v' -exe grep 422 {} \;
+ 1919  find FA-0016_VideoProcessorCard -type f -iname '*.v' -exec grep 422 {} \;
+ 1920  find FA-0016_VideoProcessorCard -type f -iname '*.v' -exec grep to_422 {} \;
+ 1921  find FA-0016_VideoProcessorCard -type f -iname '*.v' -exec grep -l to_422 {} \;
+ 1922  reset
+ 1923  ./FA-0016_VideoProcessorCard/scripts/linux/compile_simulation.bash behave
+ 1924  reset ; ./FA-0016_VideoProcessorCard/scripts/linux/compile_simulation.bash behave
+ 1925  ls
+ 1926  ./FA-0016_VideoProcessorCard/scripts/linux/run_simulation.bash -v behave
+ 1927  reset ; ./FA-0016_VideoProcessorCard/scripts/linux/compile_simulation.bash behave
+ 1928  ./FA-0016_VideoProcessorCard/scripts/linux/run_simulation.bash -v behave
+ 1929  vivado&
+ 1930  mv ~/Desktop/vivado_create_project_tcl_info.txt FA-0016_VideoProcessorCard/scripts/
+ 1931  ls ~/Desktop/vivado_create_project_tcl_info.txt FA-0016_VideoProcessorCard/scripts/
+ 1932  ls ~/Desktop/*~
+ 1933  ls ~/Desktop/.*~
+ 1934  ls ~/Desktop/*~
+ 1935  rm ~/Desktop/*~
+ 1936  reset ; ./FA-0016_VideoProcessorCard/scripts/linux/compile_simulation.bash behave
+ 1937  ./FA-0016_VideoProcessorCard/scripts/linux/run_simulation.bash -v behave
+ 1938  history 
+ 1939  reset ; ./FA-0016_VideoProcesso
