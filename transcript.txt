@@ -1,0 +1,69 @@
+Script started on 2020-05-21 15:26:35+0100
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ man script[2Phistory | tail -30
+ 1972  ls -l
+ 1973  cd work/
+ 1974  mkdir dajngo_rest
+ 1975  cd django_rest
+ 1976  ls -l
+ 1977  pwd
+ 1978  rmdir django_reset
+ 1979  ls -l
+ 1980  rmdir django_reset
+ 1981  mkdir django_reset
+ 1982  cd django_reset/
+ 1983  ls -l
+ 1984  cd ..
+ 1985  rmdir django_rest/
+ 1986  rmdir dajngo_rest/ django_reset/
+ 1987  mkdir django_rest
+ 1988  cd django_rest/
+ 1989  ls -l
+ 1990  git clone https://github.com/andyjohnfisher/recipe-app-api.git
+ 1991  cd recipe-app-api/
+ 1992  ls -l
+ 1993  emacs&
+ 1994  mkdir app
+ 1995  ls -l
+ 1996  docker build .
+ 1997  ls
+ 1998  docker-compose build
+ 1999  history 
+ 2000  man script
+ 2001  history | tail -30
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c ""d"j"a"n"g"o"-"a"d"m"i"n"."p"y" "s"t"a"r"t"p"r"o"j"e"c"t" "a"p"p" "."
+Creating network "recipe-app-api_default" with the default driver
+Traceback (most recent call last):
+  File "/usr/local/bin/django-admin.py", line 5, in <module>
+    management.execute_from_command_line()
+  File "/usr/local/lib/python3.7/site-packages/django/core/management/__init__.py", line 381, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python3.7/site-packages/django/core/management/__init__.py", line 375, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/usr/local/lib/python3.7/site-packages/django/core/management/base.py", line 323, in run_from_argv
+    self.execute(*args, **cmd_options)
+  File "/usr/local/lib/python3.7/site-packages/django/core/management/base.py", line 364, in execute
+    output = self.handle(*args, **options)
+  File "/usr/local/lib/python3.7/site-packages/django/core/management/commands/startproject.py", line 20, in handle
+    super().handle('project', project_name, target, **options)
+  File "/usr/local/lib/python3.7/site-packages/django/core/management/templates.py", line 155, in handle
+    with open(new_path, 'w', encoding='utf-8') as new_file:
+PermissionError: [Errno 13] Permission denied: '/app/manage.py'
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ ls -l 
+total 32
+drwxrwxr-x 2 ajf ajf 4096 May 21 15:17 [0m[01;34mapp[0m
+-rw-rw-r-- 1 ajf ajf  211 May 21 15:29 docker-compose.yml
+-rw-rw-r-- 1 ajf ajf   41 May 21 15:20 docker-compose.yml~
+-rw-rw-r-- 1 ajf ajf  226 May 21 15:15 Dockerfile
+-rw-rw-r-- 1 ajf ajf   70 May 21 15:05 Dockerfile~
+-rw-rw-r-- 1 ajf ajf   45 May 21 14:51 README.md
+-rw-rw-r-- 1 ajf ajf   57 May 21 15:17 requirements.txt
+-rw-rw-r-- 1 ajf ajf   22 May 21 15:16 requirements.txt~
+-rw-rw-r-- 1 ajf ajf    0 May 21 15:26 transcript.txt
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ whoi[Kami
+ajf
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ ls app/
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ export UID=${UID} && export GID=${GUID[K[K[KID}
+bash: UID: readonly variable
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ export UID=${UID} && export GID=${GID}ls app/[K[1Pwhoamils -l docker-compose run app sh -c "django-admin.py startproject app ."[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -l [Kwhoamils app/export UID=${UID} && export GID=${GID}[Kecho $UID
+1026
+]0;aj
