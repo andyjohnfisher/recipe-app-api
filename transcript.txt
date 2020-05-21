@@ -1451,4 +1451,723 @@ Traceback (most recent call last):
   File "/usr/local/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
     __import__(name)
   File "/app/tests.py", line 4, in <module>
-    from app.calc import add # fail
+    from app.calc import add # fails
+ModuleNotFoundError: No module named 'app.calc'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K app/calc.py[Kdocker-compose run app sh -c "python manage.py test"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kgit add .
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ git add .[K[25P(reverse-i-search)`':[Cg': git add .[1@i[C[C[C[1@t[C[C[C[1@ [C[C[Cc': git commit -a]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ git commit -a
+hint: Waiting for your editor to close the file... [?1049h[22;0;0t[1;45r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[43;70H(B[0;7m[ Reading File ](B[m[43;76H(B[0;7m 14 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                  /home/ajf/work/django_rest/recipe-app-api/.git/COMMIT_EDITMSG                                            [1;154H(B[m[44d(B[0;7m^G(B[m Get Help[18G(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text[69G(B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo[44;120H(B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket[45d(B[0;7m^X(B[m Exit[45;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Uncut Text    (B[0;7m^T(B[m To Spell[86G(B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo[45;120H(B[0;7mM-6(B[m Copy Text    (B[0;7mM-W(B[m WhereIs Next[43d[4d[39;49m[36m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d#[7d# Committer: Andy Fisher [35m<ajf@howitworks.co.uk>[8d[36m#[9d# On branch master[10d# Your branch is up-to-date with 'origin/master'.[11d#[12d# Changes to be committed:[13d#       new file:   app/calc.py[14d#       new file:   app/tests.py[15d#       modified:   transcript.txt[16d#[3d[39m(B[m[?12l[?25h[?25l[1;146H(B[0;7mModified(B[m[3dA[?12l[?25h[?25ld[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lu[?12l[?25h[?25ln[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l-[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25la[43d[K[3;27H[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25lu[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lp[?12l[?25h[?25lp[?12l[?25h[?25l.[?12l[?25h[?25lc[?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25lc[?12l[?25h[?25l[43d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                                                                              [44;1H Y(B[m Yes[K[45d(B[0;7m N(B[m No  [45;17H(B[0;7m^C(B[m Cancel[K[43;63H[?12l[?25h[?25l[?12l[?25h[?25l[44d(B[0;7m^G(B[m Get Help[44;39H(B[0;7mM-D(B[m DOS Format[44;77H(B[0;7mM-A(B[m Append[44;115H(B[0;7mM-B(B[m Backup File[45d(B[0;7m^C(B[m Cancel[17G         [45;39H(B[0;7mM-M(B[m Mac Format[45;77H(B[0;7mM-P(B[m Prefix[45;115H(B[0;7m^T(B[m To Files[43d(B[0;7mFile Name to Write: /home/ajf/work/django_rest/recipe-app-api/.git/COMMIT_EDITMSG(B[m[43;82H[?12l[?25h[?25l[K[1;154H[1;146H(B[0;7m        (B[m[43;69H(B[0;7m[ Wrote 14 lines ](B[m[J[45;155H[?12l[?25h[45;1H[?1049l[23;0;0t[?1l>[K[master b6f71ae] Added first unit test - path issue on app.calc
+ Committer: Andy Fisher <ajf@howitworks.co.uk>
+Your name and e-mail address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 221 insertions(+), 1 deletion(-)
+ create mode 100644 app/calc.py
+ create mode 100644 app/tests.py
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ git commit -a[4Padd .docker-compose run app sh -c "python manage.py test"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit add .[Kcommit -a[K[25P(reverse-i-search)`':[Cg': git commit -a[1@i[C[C[C[1@t[C[C[C[1@ [C[C[Cp': git push origin]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ git push origin
+Username for 'https://github.com': andyjohnfisher
+Password for 'https://andyjohnfisher@github.com': 
+Counting objects: 6, done.
+Delta compression using up to 24 threads.
+Compressing objects:  16% (1/6)   Compressing objects:  33% (2/6)   Compressing objects:  50% (3/6)   Compressing objects:  66% (4/6)   Compressing objects:  83% (5/6)   Compressing objects: 100% (6/6)   Compressing objects: 100% (6/6), done.
+Writing objects:  16% (1/6)   Writing objects:  33% (2/6)   Writing objects:  50% (3/6)   Writing objects:  66% (4/6)   Writing objects:  83% (5/6)   Writing objects: 100% (6/6)   Writing objects: 100% (6/6), 2.30 KiB | 1.15 MiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/andyjohnfisher/recipe-app-api.git
+   69f293a..b6f71ae  master -> master
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ 
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ 
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ 
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ git push origin
+Username for 'https://github.com': ^C
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ git push origin[2Pcommit -a[4Padd .docker-compose run app sh -c "python manage.py test"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+System check identified no issues (0 silenced).
+E
+======================================================================
+ERROR: tests (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: tests
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/app/tests.py", line 5, in <module>
+    from calc import subtract
+ImportError: cannot import name 'subtract' from 'calc' (/app/calc.py)
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+.F
+======================================================================
+FAIL: test_subtract_numbers (tests.CalcTests)
+Test that values are subtrated and returned
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/app/tests.py", line 15, in test_subtract_numbers
+    self.assertEqual(subtract(5,11), 6)
+AssertionError: None != 6
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+FAILED (failures=1)
+Destroying test database for alias 'default'...
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+OK
+Destroying test database for alias 'default'...
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test" "&"&" "f"l"a"k"e"8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+OK
+Destroying test database for alias 'default'...
+sh: flake8: not found
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kdocker-compose build
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Building app
+Step 1/10 : FROM python:3.7-alpine
+ ---> e854017db514
+Step 2/10 : MAINTAINER Andy Fisher
+ ---> Using cache
+ ---> f68619cd627e
+Step 3/10 : ENV PYTHONUNBUFFERED 1
+ ---> Using cache
+ ---> 53cdcb9291f5
+Step 4/10 : COPY ./requirements.txt /requirements.txt
+ ---> e7535e039073
+Step 5/10 : RUN pip install -r /requirements.txt
+ ---> Running in 2412240f73c7
+Collecting Django<=2.2.0,>=2.1.3
+  Downloading Django-2.2-py3-none-any.whl (7.4 MB)
+Collecting djangorestframework<3.10.0,>=3.9.0
+  Downloading djangorestframework-3.9.4-py2.py3-none-any.whl (911 kB)
+Collecting flake8<3.7.0,>=3.6.0
+  Downloading flake8-3.6.0-py2.py3-none-any.whl (68 kB)
+Collecting pytz
+  Downloading pytz-2020.1-py2.py3-none-any.whl (510 kB)
+Collecting sqlparse
+  Downloading sqlparse-0.3.1-py2.py3-none-any.whl (40 kB)
+Collecting pyflakes<2.1.0,>=2.0.0
+  Downloading pyflakes-2.0.0-py2.py3-none-any.whl (53 kB)
+Collecting mccabe<0.7.0,>=0.6.0
+  Downloading mccabe-0.6.1-py2.py3-none-any.whl (8.6 kB)
+Collecting pycodestyle<2.5.0,>=2.4.0
+  Downloading pycodestyle-2.4.0-py2.py3-none-any.whl (62 kB)
+Requirement already satisfied: setuptools>=30 in /usr/local/lib/python3.7/site-packages (from flake8<3.7.0,>=3.6.0->-r /requirements.txt (line 4)) (46.4.0)
+Installing collected packages: pytz, sqlparse, Django, djangorestframework, pyflakes, mccabe, pycodestyle, flake8
+Successfully installed Django-2.2 djangorestframework-3.9.4 flake8-3.6.0 mccabe-0.6.1 pycodestyle-2.4.0 pyflakes-2.0.0 pytz-2020.1 sqlparse-0.3.1
+Removing intermediate container 2412240f73c7
+ ---> 94ef3015a0a1
+Step 6/10 : RUN mkdir /app
+ ---> Running in 35be75b7251c
+Removing intermediate container 35be75b7251c
+ ---> 14968ac1573d
+Step 7/10 : WORKDIR /app
+ ---> Running in c26720aaeb37
+Removing intermediate container c26720aaeb37
+ ---> 5be4b51b0948
+Step 8/10 : COPY ./app /app
+ ---> bfad9ee2aaf0
+Step 9/10 : RUN adduser -D user
+ ---> Running in 070388c52ae4
+Removing intermediate container 070388c52ae4
+ ---> 9d3ec2696217
+Step 10/10 : USER user
+ ---> Running in 02bb64f14f98
+Removing intermediate container 02bb64f14f98
+ ---> 33827859d466
+Successfully built 33827859d466
+Successfully tagged recipe-app-api_app:latest
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose buildrun app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+OK
+Destroying test database for alias 'default'...
+./calc.py:5:1: E302 expected 2 blank lines, found 1
+./tests.py:7:1: E302 expected 2 blank lines, found 1
+./tests.py:15:36: E231 missing whitespace after ','
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+OK
+Destroying test database for alias 'default'...
+./tests.py:7:1: E302 expected 2 blank lines, found 1
+./tests.py:15:36: E231 missing whitespace after ','
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+OK
+Destroying test database for alias 'default'...
+./tests.py:15:5: E303 too many blank lines (2)
+./tests.py:17:36: E231 missing whitespace after ','
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+OK
+Destroying test database for alias 'default'...
+./tests.py:16:36: E231 missing whitespace after ','
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+OK
+Destroying test database for alias 'default'...
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c ""p"y"t"h"o"n" "m"a"n"a"g"e"."p"y" "s"t"a"r"t"a"p"p" "c"o"r"e"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ rm co[K[Kapp/core/tests.py view[K[K[K[Kapp/core/views.py 
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ mkf[Kdir app/core/tests
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ touh app/core/tests/__init__.py
+
+Command 'touh' not found, did you mean:
+
+  command 'touch' from deb coreutils
+
+Try: sudo apt install <deb name>
+
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ touh app/core/tests/__init__.py[C[C[C[1@c
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ emacs sett[K[K[K[Kapp/sett[K[K[K[K
+app/         calc.py      calc.py~     core/        .flake8      .flake8~     manage.py    __pycache__/ tests.py     tests.py~    
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ emacs app/app/settings.py &
+[2] 657
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ touch app/core/tests/test_models.py
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ touch app/core/tests/test_models.py[8Pemacs app/app/settings.py &touch app/core/tests/__init__.py[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pmkdir app/core/testsrm app/core/tests.py app/core/views.py docker-compose run app sh -c "python manage.py startapp core"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+[31;1mCommandError: 'core' conflicts with the name of an existing Python module and cannot be used as an app name. Please try another name.
+[0m[2]+  Done                    emacs app/app/settings.py
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py startapp core"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[26Ptouch app/core/tests/test_models.py[8Pemacs app/app/settings.py &touch app/core/tests/__init__.py[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Pmkdir app/core/testsrm app/core/tests.py app/core/views.py docker-compose run app sh -c "python manage.py startapp core"test && flake8"build[Krun app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+..E
+======================================================================
+ERROR: core.tests.test_models (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: core.tests.test_models
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/app/core/tests/test_models.py", line 3
+    import django.contrib.auth import get_user_model
+                                    ^
+SyntaxError: invalid syntax
+
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+FAILED (errors=1)
+Destroying test database for alias 'default'...
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+E..
+======================================================================
+ERROR: test_create_user_with_email_sucessful (core.tests.test_models.ModelTests)
+Test creating a new user with an email
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/app/core/tests/test_models.py", line 13, in test_create_user_with_email_sucessful
+    password = pw
+TypeError: create_user() missing 1 required positional argument: 'username'
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.002s
+
+FAILED (errors=1)
+Destroying test database for alias 'default'...
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"m"a"k"e"m"i"g"r"a"t"i"o"n"s" "o"[1P"c"o"r"e"[C
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Traceback (most recent call last):
+  File "manage.py", line 21, in <module>
+    main()
+  File "manage.py", line 17, in main
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python3.7/site-packages/django/core/management/__init__.py", line 381, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python3.7/site-packages/django/core/management/__init__.py", line 357, in execute
+    django.setup()
+  File "/usr/local/lib/python3.7/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python3.7/site-packages/django/apps/registry.py", line 114, in populate
+    app_config.import_models()
+  File "/usr/local/lib/python3.7/site-packages/django/apps/config.py", line 211, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/app/core/models.py", line 2, in <module>
+    from django.contrib.auth.models import AbstractBaseUser, BasseUserManager, \
+ImportError: cannot import name 'BasseUserManager' from 'django.contrib.auth.models' (/usr/local/lib/python3.7/site-packages/django/contrib/auth/models.py)
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py makemigrations core"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Traceback (most recent call last):
+  File "manage.py", line 21, in <module>
+    main()
+  File "manage.py", line 17, in main
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python3.7/site-packages/django/core/management/__init__.py", line 381, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python3.7/site-packages/django/core/management/__init__.py", line 357, in execute
+    django.setup()
+  File "/usr/local/lib/python3.7/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python3.7/site-packages/django/apps/registry.py", line 114, in populate
+    app_config.import_models()
+  File "/usr/local/lib/python3.7/site-packages/django/apps/config.py", line 211, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/app/core/models.py", line 5, in <module>
+    class UserManager(BaseUserNanager):
+NameError: name 'BaseUserNanager' is not defined
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py makemigrations core"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Traceback (most recent call last):
+  File "manage.py", line 21, in <module>
+    main()
+  File "manage.py", line 17, in main
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python3.7/site-packages/django/core/management/__init__.py", line 381, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python3.7/site-packages/django/core/management/__init__.py", line 357, in execute
+    django.setup()
+  File "/usr/local/lib/python3.7/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python3.7/site-packages/django/apps/registry.py", line 114, in populate
+    app_config.import_models()
+  File "/usr/local/lib/python3.7/site-packages/django/apps/config.py", line 211, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/app/core/models.py", line 16, in <module>
+    class User(AbstractBaseUser, PersmissionMixin):
+NameError: name 'PersmissionMixin' is not defined
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py makemigrations core"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Traceback (most recent call last):
+  File "manage.py", line 21, in <module>
+    main()
+  File "manage.py", line 17, in main
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python3.7/site-packages/django/core/management/__init__.py", line 381, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python3.7/site-packages/django/core/management/__init__.py", line 357, in execute
+    django.setup()
+  File "/usr/local/lib/python3.7/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python3.7/site-packages/django/apps/registry.py", line 114, in populate
+    app_config.import_models()
+  File "/usr/local/lib/python3.7/site-packages/django/apps/config.py", line 211, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/app/core/models.py", line 16, in <module>
+    class User(AbstractBaseUser, PersmissionsMixin):
+NameError: name 'PersmissionsMixin' is not defined
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py makemigrations core"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Traceback (most recent call last):
+  File "manage.py", line 21, in <module>
+    main()
+  File "manage.py", line 17, in main
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python3.7/site-packages/django/core/management/__init__.py", line 381, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python3.7/site-packages/django/core/management/__init__.py", line 357, in execute
+    django.setup()
+  File "/usr/local/lib/python3.7/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python3.7/site-packages/django/apps/registry.py", line 114, in populate
+    app_config.import_models()
+  File "/usr/local/lib/python3.7/site-packages/django/apps/config.py", line 211, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/app/core/models.py", line 16, in <module>
+    class User(AbstractBaseUser, PermissionsMixin):
+  File "/app/core/models.py", line 18, in User
+    email     = models.EmailField(max_length=255, uniqu=True)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1645, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/django/db/models/fields/__init__.py", line 1037, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'uniqu'
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py makemigrations core"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Traceback (most recent call last):
+  File "manage.py", line 21, in <module>
+    main()
+  File "manage.py", line 17, in main
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python3.7/site-packages/django/core/management/__init__.py", line 381, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python3.7/site-packages/django/core/management/__init__.py", line 357, in execute
+    django.setup()
+  File "/usr/local/lib/python3.7/site-packages/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python3.7/site-packages/django/apps/registry.py", line 114, in populate
+    app_config.import_models()
+  File "/usr/local/lib/python3.7/site-packages/django/apps/config.py", line 211, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/local/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/app/core/models.py", line 16, in <module>
+    class User(AbstractBaseUser, PermissionsMixin):
+  File "/app/core/models.py", line 19, in User
+    name      = models.CharFiled(max_length=255)
+AttributeError: module 'django.db.models' has no attribute 'CharFiled'
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py makemigrations core"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+[36;1mMigrations for 'core':[0m
+  [1mcore/migrations/0001_initial.py[0m
+    - Create model User
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py makemigrations core"[5Ptest && flake8"[1Pstartapp core"test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.431s
+
+OK
+Destroying test database for alias 'default'...
+./core/admin.py:1:1: F401 'django.contrib.admin' imported but unused
+./core/models.py:5:1: E302 expected 2 blank lines, found 1
+./core/models.py:18:10: E221 multiple spaces before operator
+./core/models.py:19:9: E221 multiple spaces before operator
+./core/models.py:21:13: E221 multiple spaces before operator
+./core/tests/test_models.py:5:1: E302 expected 2 blank lines, found 1
+./core/tests/test_models.py:12:18: E251 unexpected spaces around keyword / parameter equals
+./core/tests/test_models.py:12:20: E251 unexpected spaces around keyword / parameter equals
+./core/tests/test_models.py:13:21: E251 unexpected spaces around keyword / parameter equals
+./core/tests/test_models.py:13:23: E251 unexpected spaces around keyword / parameter equals
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.444s
+
+OK
+Destroying test database for alias 'default'...
+./core/admin.py:1:1: F401 'django.contrib.admin' imported but unused
+./core/models.py:19:10: E221 multiple spaces before operator
+./core/models.py:20:9: E221 multiple spaces before operator
+./core/models.py:22:13: E221 multiple spaces before operator
+./core/tests/test_models.py:13:18: E251 unexpected spaces around keyword / parameter equals
+./core/tests/test_models.py:13:18: E221 multiple spaces before operator
+./core/tests/test_models.py:13:23: E251 unexpected spaces around keyword / parameter equals
+./core/tests/test_models.py:14:21: E251 unexpected spaces around keyword / parameter equals
+./core/tests/test_models.py:14:23: E251 unexpected spaces around keyword / parameter equals
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.432s
+
+OK
+Destroying test database for alias 'default'...
+./core/admin.py:1:1: F401 'django.contrib.admin' imported but unused
+./core/models.py:19:10: E221 multiple spaces before operator
+./core/models.py:20:9: E221 multiple spaces before operator
+./core/models.py:22:13: E221 multiple spaces before operator
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+.F..
+======================================================================
+FAIL: test_new_user_email_normalised (core.tests.test_models.ModelTests)
+Test the email for a new user gets normalised
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/app/core/tests/test_models.py", line 25, in test_new_user_email_normalised
+    self.assertEqual(user.email, email.lower())
+AssertionError: 'test@FROGS.CO.UK' != 'test@frogs.co.uk'
+- test@FROGS.CO.UK
++ test@frogs.co.uk
+
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.671s
+
+FAILED (failures=1)
+Destroying test database for alias 'default'...
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ 
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ 
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ 
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+EE..
+======================================================================
+ERROR: test_create_user_with_email_sucessful (core.tests.test_models.ModelTests)
+Test creating a new user with an email
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/app/core/tests/test_models.py", line 14, in test_create_user_with_email_sucessful
+    password=pw
+  File "/app/core/models.py", line 10, in create_user
+    user = self.model(email=self.normalise_email(email), **extra_fields)
+AttributeError: 'UserManager' object has no attribute 'normalise_email'
+
+======================================================================
+ERROR: test_new_user_email_normalised (core.tests.test_models.ModelTests)
+Test the email for a new user gets normalised
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/app/core/tests/test_models.py", line 23, in test_new_user_email_normalised
+    user = get_user_model().objects.create_user(email, 'abc')
+  File "/app/core/models.py", line 10, in create_user
+    user = self.model(email=self.normalise_email(email), **extra_fields)
+AttributeError: 'UserManager' object has no attribute 'normalise_email'
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.002s
+
+FAILED (errors=2)
+Destroying test database for alias 'default'...
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.656s
+
+OK
+Destroying test database for alias 'default'...
+./core/admin.py:1:1: F401 'django.contrib.admin' imported but unused
+./core/models.py:19:10: E221 multiple spaces before operator
+./core/models.py:20:9: E221 multiple spaces before operator
+./core/models.py:22:13: E221 multiple spaces before operator
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+..F..
+======================================================================
+FAIL: test_new_user_invalid_email (core.tests.test_models.ModelTests)
+Test creating user with no email cases error
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/app/core/tests/test_models.py", line 30, in test_new_user_invalid_email
+    user = get_user_model().objects.create_user(None, 'abc')
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.864s
+
+FAILED (failures=1)
+Destroying test database for alias 'default'...
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.666s
+
+OK
+Destroying test database for alias 'default'...
+./core/admin.py:1:1: F401 'django.contrib.admin' imported but unused
+./core/models.py:21:10: E221 multiple spaces before operator
+./core/models.py:22:9: E221 multiple spaces before operator
+./core/models.py:24:13: E221 multiple spaces before operator
+./core/tests/test_models.py:30:13: F841 local variable 'user' is assigned to but never used
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+E.....
+======================================================================
+ERROR: test_create_new_supperuser (core.tests.test_models.ModelTests)
+Test creating a new supper user
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/app/core/tests/test_models.py", line 34, in test_create_new_supperuser
+    user = get_user_model().objects.create_superuser(
+AttributeError: 'UserManager' object has no attribute 'create_superuser'
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.660s
+
+FAILED (errors=1)
+Destroying test database for alias 'default'...
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+E.....
+======================================================================
+ERROR: test_create_new_supperuser (core.tests.test_models.ModelTests)
+Test creating a new supper user
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/app/core/tests/test_models.py", line 34, in test_create_new_supperuser
+    user = get_user_model().objects.create_superuser(
+AttributeError: 'UserManager' object has no attribute 'create_superuser'
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.674s
+
+FAILED (errors=1)
+Destroying test database for alias 'default'...
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.876s
+
+OK
+Destroying test database for alias 'default'...
+./core/admin.py:1:1: F401 'django.contrib.admin' imported but unused
+./core/models.py:27:1: E302 expected 2 blank lines, found 1
+./core/models.py:29:10: E221 multiple spaces before operator
+./core/models.py:30:9: E221 multiple spaces before operator
+./core/models.py:32:13: E221 multiple spaces before operator
+./core/tests/test_models.py:30:13: F841 local variable 'user' is assigned to but never used
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ git [K[K[K[Kdocker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+..E...
+======================================================================
+ERROR: test_new_user_email_normalised (core.tests.test_models.ModelTests)
+Test the email for a new user gets normalised
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/app/core/tests/test_models.py", line 25, in test_new_user_email_normalised
+    self.assertEqual(user.email, email.lower())
+NameError: name 'user' is not defined
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.900s
+
+FAILED (errors=1)
+Destroying test database for alias 'default'...
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+..E...
+======================================================================
+ERROR: test_new_user_email_normalised (core.tests.test_models.ModelTests)
+Test the email for a new user gets normalised
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/app/core/tests/test_models.py", line 25, in test_new_user_email_normalised
+    self.assertEqual(user.email, email.lower())
+NameError: name 'user' is not defined
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.866s
+
+FAILED (errors=1)
+Destroying test database for alias 'default'...
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test && flake8"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
