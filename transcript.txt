@@ -1255,4 +1255,200 @@ To https://github.com/andyjohnfisher/recipe-app-api.git
  1936  reset ; ./FA-0016_VideoProcessorCard/scripts/linux/compile_simulation.bash behave
  1937  ./FA-0016_VideoProcessorCard/scripts/linux/run_simulation.bash -v behave
  1938  history 
- 1939  reset ; ./FA-0016_VideoProcesso
+ 1939  reset ; ./FA-0016_VideoProcessorCard/scripts/linux/compile_simulation.bash behave ; ./FA-0016_VideoProcessorCard/scripts/linux/run_simulation.bash -v behave
+ 1940  cd Dropbox/keys/
+ 1941  ls -l
+ 1942  ssh-agent -s
+ 1943  eval "$(ssh-agent -s)
+ 1944  "
+ 1945  man eval
+ 1946  eval "$(ssh-agent -s)
+ 1947  "
+ 1948  eval "$(ssh-agent -s)"
+ 1949  ssh-add ./github_rsa
+ 1950  cd .ssh
+ 1951  cd ~/.ssh
+ 1952  ls -l
+ 1953  cp ~/Dropbox/keys/github_rsa* .
+ 1954  ls -l
+ 1955  chmod 300 github_rsa
+ 1956  ls -l
+ 1957  chmod 600 github_rsa
+ 1958  ls -l
+ 1959  ssh-add ./github_rsa
+ 1960  sudo apt-get install xclip
+ 1961  xclip -sel clip < ~/.ssh/github_rsa.pub 
+ 1962  ssh -T git@github.com
+ 1963  ls -l
+ 1964  rm github_rsa*
+ 1965  ssh-keygen -t rsa -b 4096 -C "andy_gh@howitworks.co.uk"
+ 1966  ls -l
+ 1967  ssh-add ~/.ssh/github_rsa
+ 1968  ls -l
+ 1969  xclip -sel clip < ~/.ssh/github_rsa.pub 
+ 1970  ssh -T git@github.com
+ 1971  cd
+ 1972  ls -l
+ 1973  cd work/
+ 1974  mkdir dajngo_rest
+ 1975  cd django_rest
+ 1976  ls -l
+ 1977  pwd
+ 1978  rmdir django_reset
+ 1979  ls -l
+ 1980  rmdir django_reset
+ 1981  mkdir django_reset
+ 1982  cd django_reset/
+ 1983  ls -l
+ 1984  cd ..
+ 1985  rmdir django_rest/
+ 1986  rmdir dajngo_rest/ django_reset/
+ 1987  mkdir django_rest
+ 1988  cd django_rest/
+ 1989  ls -l
+ 1990  git clone https://github.com/andyjohnfisher/recipe-app-api.git
+ 1991  cd recipe-app-api/
+ 1992  ls -l
+ 1993  emacs&
+ 1994  mkdir app
+ 1995  ls -l
+ 1996  docker build .
+ 1997  ls
+ 1998  docker-compose build
+ 1999  history 
+ 2000  man script
+ 2001  history | tail -30
+ 2002  docker-compose run app sh -c "django-admin.py startproject app ."
+ 2003  ls -l 
+ 2004  whoami
+ 2005* 
+ 2006  export UID=${UID} && export GID=${GID}
+ 2007  echo $UID
+ 2008  echo $GID
+ 2009  docker-compose run app sh -c "django-admin.py startproject app ."
+ 2010  git add .
+ 2011  git commit -a
+ 2012  git list
+ 2013  git status
+ 2014  more .gitignore 
+ 2015  grep -i back .gitignore 
+ 2016  emacs .gitignore &
+ 2017  find . -iname '*~'
+ 2018  git del docker-compose.yml~ Dockerfile~ requirements.txt~
+ 2019  git rm docker-compose.yml~ Dockerfile~ requirements.txt~
+ 2020  git commit -a
+ 2021  git push 
+ 2022  git add .
+ 2023  git commit -a
+ 2024  git push origen
+ 2025  git push origin
+ 2026  history 
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ history git push originen[2Pcommit -a
+hint: Waiting for your editor to close the file... [?1049h[22;0;0t[1;45r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[43;70H(B[0;7m[ Reading File ](B[m[43;76H(B[0;7m 14 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                  /home/ajf/work/django_rest/recipe-app-api/.git/COMMIT_EDITMSG                                            [1;154H(B[m[44d(B[0;7m^G(B[m Get Help[18G(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text[69G(B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo[44;120H(B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket[45d(B[0;7m^X(B[m Exit[45;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Uncut Text    (B[0;7m^T(B[m To Spell[86G(B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo[45;120H(B[0;7mM-6(B[m Copy Text    (B[0;7mM-W(B[m WhereIs Next[43d[4d[39;49m[36m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d#[7d# Committer: Andy Fisher [35m<ajf@howitworks.co.uk>[8d[36m#[9d# On branch master[10d# Your branch is up-to-date with 'origin/master'.[11d#[12d# Changes to be committed:[13d#       modified:   .travis.yml[14d#       modified:   app/.flake8[15d#       modified:   transcript.txt[16d#[3d[39m(B[m[?12l[?25h[?25l[1;146H(B[0;7mModified(B[m[3dT[?12l[?25h[?25ly[?12l[?25h[?25lp[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25l.[?12l[?25h[?25lt[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25lv[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l.[?12l[?25h[?25ly[?12l[?25h[?25lm[?12l[?25h[?25ll[?12l[?25h[?25l[44;18H[21X[44;39H(B[0;7mM-D(B[m DOS Format          [69G        (B[0;7mM-A(B[m Append         [103G            (B[0;7mM-B(B[m Backup File[K[45;2H(B[0;7mC(B[m Cancel[45;18H[21X[45;39H(B[0;7mM-M(B[m Mac Format[24X[45;77H(B[0;7mM-P(B[m Prefix[28X[45;115H(B[0;7m^T(B[m To Files[K[43d(B[0;7mFile Name to Write: /home/ajf/work/django_rest/recipe-app-api/.git/COMMIT_EDITMSG                                                                          [43;1H(B[m[43;82H[?12l[?25h[?25l[K[1;154H[1;146H(B[0;7m        (B[m[43;69H(B[0;7m[ Wrote 14 lines ](B[m[44;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is      (B[0;7m^K(B[m Cut Text[69G(B[0;7m^J(B[m Justify       (B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo         (B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket[45;2H(B[0;7mX(B[m Exit  [45;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace       (B[0;7m^U(B[m Uncut Text    (B[0;7m^T(B[m To Spell      (B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo         (B[0;7mM-6(B[m Copy Text    (B[0;7mM-W(B[m WhereIs Next[43d[3;20H[?12l[?25h[?25l[43d[J[45;155H[?12l[?25h[45;1H[?1049l[23;0;0t[?1l>[K[master 69f293a] Typo in .travis.yml
+ Committer: Andy Fisher <ajf@howitworks.co.uk>
+Your name and e-mail address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 1051 insertions(+), 3 deletions(-)
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ git commit -a[5Phistory git push origin
+Username for 'https://github.com': andyjohnfisher
+Password for 'https://andyjohnfisher@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/andyjohnfisher/recipe-app-api.git/'
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ git push origin
+Username for 'https://github.com': andyjohnfisher
+Password for 'https://andyjohnfisher@github.com': 
+Counting objects: 6, done.
+Delta compression using up to 24 threads.
+Compressing objects:  16% (1/6)   Compressing objects:  33% (2/6)   Compressing objects:  50% (3/6)   Compressing objects:  66% (4/6)   Compressing objects:  83% (5/6)   Compressing objects: 100% (6/6)   Compressing objects: 100% (6/6), done.
+Writing objects:  16% (1/6)   Writing objects:  33% (2/6)   Writing objects:  50% (3/6)   Writing objects:  66% (4/6)   Writing objects:  83% (5/6)   Writing objects: 100% (6/6)   Writing objects: 100% (6/6), 12.63 KiB | 3.16 MiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/andyjohnfisher/recipe-app-api.git
+   26d8d2f..69f293a  master -> master
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ dok[Kc
+docfdisk        docker          docker-compose  dockerd         docker-init     docker-proxy    doc_loadbios    
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python mana[K[K[K[Kmanage.py test"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+System check identified no issues (0 silenced).
+E
+======================================================================
+ERROR: tests (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: tests
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/app/tests.py", line 3, in <module>
+    from app.calc import add
+ModuleNotFoundError: No module named 'app.calc'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+System check identified no issues (0 silenced).
+E
+======================================================================
+ERROR: tests (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: tests
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/app/tests.py", line 3, in <module>
+    from app.calc import add
+ModuleNotFoundError: No module named 'app.calc'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ ls
+[0m[01;34mapp[0m  docker-compose.yml  Dockerfile  README.md  requirements.txt  transcript.txt
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ ls app/calc.py
+app/calc.py
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ ls app/calc.py[Kls
+[0m[01;34mapp[0m  docker-compose.yml  Dockerfile  README.md  requirements.txt  transcript.txt
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ ls app/calc.py[Kdocker-compose run app sh -c "python manage.py test"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+Destroying test database for alias 'default'...
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ docker-compose run app sh -c "python manage.py test"
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+System check identified no issues (0 silenced).
+E
+======================================================================
+ERROR: tests (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: tests
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/unittest/loader.py", line 436, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "/usr/local/lib/python3.7/unittest/loader.py", line 377, in _get_module_from_name
+    __import__(name)
+  File "/app/tests.py", line 4, in <module>
+    from app.calc import add # fail
