@@ -66,4 +66,142 @@ ajf
 bash: UID: readonly variable
 ]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ export UID=${UID} && export GID=${GID}ls app/[K[1Pwhoamils -l docker-compose run app sh -c "django-admin.py startproject app ."[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -l [Kwhoamils app/export UID=${UID} && export GID=${GID}[Kecho $UID
 1026
-]0;aj
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ echo $UIDxport UID=${UID} && export GID=${GID}ls app/[K[K[K[K[K[K[K[Kwhoamils -l whoami[Kexport UID=${UID} && export GID=${GID}cho $UID[K[1PIDGID
+
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ echo $GIDUIDxport UID=${UID} && export GID=${GID}[Kwhoamils -l docker-compose run app sh -c "django-admin.py startproject app ."
+[33mWARNING[0m: The GID variable is not set. Defaulting to a blank string.
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ git add .
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ git add .[K[K[K[K[Kcommit -a
+hint: Waiting for your editor to close the file... [?1049h[22;0;0t[1;45r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[43;70H(B[0;7m[ Reading File ](B[m[43;76H(B[0;7m 23 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                                  /home/ajf/work/django_rest/recipe-app-api/.git/COMMIT_EDITMSG                                            [1;154H(B[m[44d(B[0;7m^G(B[m Get Help[18G(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut Text[69G(B[0;7m^J(B[m Justify[86G(B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo[44;120H(B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket[45d(B[0;7m^X(B[m Exit[45;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Uncut Text    (B[0;7m^T(B[m To Spell[86G(B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo[45;120H(B[0;7mM-6(B[m Copy Text    (B[0;7mM-W(B[m WhereIs Next[43d[4d[39;49m[36m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d#[7d# Committer: Andy Fisher [35m<ajf@howitworks.co.uk>[8d[36m#[9d# On branch master[10d# Your branch is up-to-date with 'origin/master'.[11d#[12d# Changes to be committed:[13d#       new file:   Dockerfile[14d#       new file:   Dockerfile~[15d#       new file:   app/app/__init__.py[16d#       new file:   app/app/settings.py[17d#       new file:   app/app/urls.py[18d#       new file:   app/app/wsgi.py[19d#       new file:   app/manage.py[20d#       new file:   docker-compose.yml[21d#       new file:   docker-compose.yml~[22d#       new file:   requirements.txt[23d#       new file:   requirements.txt~[24d#       new file:   transcript.txt[25d#[3d[39m(B[m[?12l[?25h[?25l[?12l[?25h[?25l[1;146H(B[0;7mModified(B[m[3dS[?12l[?25h[?25le[?12l[?25h[?25lt[?12l[?25h[?25lu[?12l[?25h[?25lp[?12l[?25h[?25l [?12l[?25h[?25ld[?12l[?25h[?25lo[?12l[?25h[?25lc[?12l[?25h[?25lk[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25lD[?12l[?25h[?25lj[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25lp[43d[K[3;26H[?12l[?25h[?25lr[?12l[?25h[?25lo[?12l[?25h[?25lj[?12l[?25h[?25le[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25l[44;18H[21X[44;39H(B[0;7mM-D(B[m DOS Format          [69G        (B[0;7mM-A(B[m Append         [103G            (B[0;7mM-B(B[m Backup File[K[45;2H(B[0;7mC(B[m Cancel[45;18H[21X[45;39H(B[0;7mM-M(B[m Mac Format[24X[45;77H(B[0;7mM-P(B[m Prefix[28X[45;115H(B[0;7m^T(B[m To Files[K[43d(B[0;7mFile Name to Write: /home/ajf/work/django_rest/recipe-app-api/.git/COMMIT_EDITMSG                                                                          [43;1H(B[m[43;82H[?12l[?25h[?25l[K[1;154H[1;146H(B[0;7m        (B[m[43;69H(B[0;7m[ Wrote 23 lines ](B[m[44;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is      (B[0;7m^K(B[m Cut Text[69G(B[0;7m^J(B[m Justify       (B[0;7m^C(B[m Cur Pos[103G(B[0;7mM-U(B[m Undo         (B[0;7mM-A(B[m Mark Text    (B[0;7mM-](B[m To Bracket[45;2H(B[0;7mX(B[m Exit  [45;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace       (B[0;7m^U(B[m Uncut Text    (B[0;7m^T(B[m To Spell      (B[0;7m^_(B[m Go To Line    (B[0;7mM-E(B[m Redo         (B[0;7mM-6(B[m Copy Text    (B[0;7mM-W(B[m WhereIs Next[43d[3;32H[?12l[?25h[?25l[43d[J[45;155H[?12l[?25h[45;1H[?1049l[23;0;0t[?1l>[K[master b972bf5] Setup docker and Django project
+ Committer: Andy Fisher <ajf@howitworks.co.uk>
+Your name and e-mail address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 12 files changed, 292 insertions(+)
+ create mode 100644 Dockerfile
+ create mode 100644 Dockerfile~
+ create mode 100644 app/app/__init__.py
+ create mode 100644 app/app/settings.py
+ create mode 100644 app/app/urls.py
+ create mode 100644 app/app/wsgi.py
+ create mode 100755 app/manage.py
+ create mode 100644 docker-compose.yml
+ create mode 100644 docker-compose.yml~
+ create mode 100644 requirements.txt
+ create mode 100644 requirements.txt~
+ create mode 100644 transcript.txt
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ gity [K[K list
+git: 'list' is not a git command. See 'git --help'.
+
+The most similar commands are
+	bisect
+	rev-list
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ git list[K[K[K[Kstatus
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   transcript.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ git status[Kmore gi[K[K./[Kgit
+.git/       .gitignore  
+]0;ajf@HP-Z600: ~/work/django_rest/recipe-app-api[01;32majf@HP-Z600[00m:[01;34m~/work/django_rest/recipe-app-api[00m$ more .gitignore 
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+[7m--More--(33%)[27m.coverage.*[K
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.p
